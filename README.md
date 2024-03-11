@@ -1,6 +1,7 @@
 # SAP Integration Suite ハンズオンワークショップ - Integration 機能概要理解編
 ## 目的
 ## 前提
+- 本ハンズオンで作成されるIntegration Flowは、SAP Integration Suite の機能を理解することを目的にしています。従って本Integration Flow には実際の業務プロセスで利用することを目的していません。
 ## 対象
 ## コンテンツ
 ### プレゼンテーション
