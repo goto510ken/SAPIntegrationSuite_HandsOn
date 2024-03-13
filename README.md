@@ -4,7 +4,7 @@ SAP Integration Suite を初めて使用するITプロフェッショナルに�
 1. SAP Business Technology Platform (BTP) Trial Edition およびIntegration Suite Trial Edtion のプロビジョニング
 2. SAP Integration Suite の各種ツールの目的および利用方法
 3. SAP Integration Suite でのプロセスフローの作成(iFlow)の作成方法
-4. SFTPによろファイル連携およびCSV <-> XML形式への変換方法
+4. SFTPによるファイル連携およびCSV <-> XML形式への変換方法
 5. メッセージマッピングの方法
 6. SAP システムへのアクセス方法(ODataアダプターの利用)
 7. iFlow のトレース方法
