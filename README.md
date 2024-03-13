@@ -21,12 +21,13 @@ SAP Integration Suite を初めて使用するITプロフェッショナルに�
 ### 1. プレゼンテーション
 ### 2. ハンズオン
 1. SAP Business Technology Platform (BTP) Trial Edition でのSAP Integration Suite プロビジョニング
+2. SFTPサーバーの設定
    - SAP Integration Suite でのSFTPサーバーの接続設定
    - SFTP サーバーへのアクセス
-2. 最初のiFlow の作成と動作トレース
-3. SFTPアダプターの利用によるファイル連携
-4. Message Mapping の利用
-5. ODataアダプターを用いたSAPシステムへの連携
-6. データ出力のデータフォーマットの変換
-7. SFTPアダプターを用いたファイルポーリングの方法
-8. 次のステップに向けて: Integration Flow Design Guideline
+3. 最初のiFlow の作成と動作トレース
+4. SFTPアダプターの利用によるファイル連携
+5. Message Mapping の利用
+6. ODataアダプターを用いたSAPシステムへの連携
+7. データ出力のデータフォーマットの変換
+8. SFTPアダプターを用いたファイルポーリングの方法
+9. 次のステップに向けて: Integration Flow Design Guideline
