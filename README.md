@@ -20,7 +20,7 @@ SAP Integration Suite を初めて使用するITプロフェッショナルに�
 ## コンテンツ
 ### 1. プレゼンテーション
 ### 2. ハンズオン
-1. SAP Business Technology Platform (BTP) Trial Edition でのSAP Integration Suite プロビジョニング
+1. [SAP Business Technology Platform (BTP) Trial Edition でのSAP Integration Suite プロビジョニング](ex1/README.md)
 2. SFTPサーバーの設定
    - SAP Integration Suite でのSFTPサーバーの接続設定
    - SFTP サーバーへのアクセス
