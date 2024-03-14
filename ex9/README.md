@@ -13,6 +13,8 @@ SAP Integration Suite にはSAPが提供するベストプラクティスとし�
 ステップ1: Itengration Suite での検索
     <details>
       <summary>内容を開く</summary>
+      1. Integration Suiteにアクセスする。
+      2. メニューからDiscover → Integration を選択します。
    </details>
   ステップ2: Integration Design Guidline - Enterprise Integration Pattarns 内の検索
     <details>
