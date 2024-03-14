@@ -16,7 +16,7 @@ SAP Integration Suite にはSAPが提供するベストプラクティスとし�
 
  1. Integration Suiteにアクセスします。
     
-    <img src="images/9-1-1.png" alt="table" width="50%">
+    <img src="images/9-1-1.png" alt="table" width="100%">
     
  2. メニューから`Discover` → `Integration` を選択します。
     
@@ -24,11 +24,11 @@ SAP Integration Suite にはSAPが提供するベストプラクティスとし�
     
  3. 検索フィールドに`Design Guideline`と入力して`エンターキー`を押してください。
     
-    <img src="images/9-1-3.png" alt="table" width="50%">
+    <img src="images/9-1-3.png" alt="table" width="100%">
     
  4. 結果として以下のように`Design Guideline`が含まれているPackage が表示されます。
     
-    <img src="images/9-1-4.png" alt="table" width="50%">
+    <img src="images/9-1-4.png" alt="table" width="100%">
       
    </details>
   ステップ2: Integration Design Guidline - Enterprise Integration Pattarns 内の検索
