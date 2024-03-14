@@ -10,24 +10,25 @@ SAP Integration Suite を初めて使用するITプロフェッショナルに�
 7. iFlow のトレース方法
    
 ## 前提
-- 利用環境はSAP Business Technologyy Platform (BTP) Trial edition のIntegration Suiteの利用を前提としています。
-- SFTP サーバーは弊社で準備したものを利用します。こちらのアクセス方法などは別途講師よりご連絡させて頂きます。
-- 本ハンズオンで作成されるIntegration Flowは、**SAP Integration Suite の機能を理解することを目的**にしています。従って実際の業務プロセスでの利用を想定していません。
+- 利用環境は`SAP Business Technologyy Platform (BTP) Trial edition` のIntegration Suiteの利用を前提としています。
+- SFTP サーバーは弊社で準備したものを利用します。こちらの`アクセス方法などは別途`よりご連絡させて頂きます。
+- 本ハンズオンで作成されるIntegration Flowは、`SAP Integration Suite の機能を理解することを目的`にしています。従って実際の業務プロセスでの利用を想定していません。
   
 ## 対象者
-- ITプロフェッショナルを想定 (これまでSAPシステム連携を行ったことがある、もしくは類似のEAIもしくはETLツールの利用経験があれば尚可)
+- `ITプロフェッショナル`を想定 (これまでSAPシステム連携を行ったことがある、もしくは類似のEAIもしくはETLツールの利用経験があれば尚可)
   
 ## コンテンツ
 ### 1. プレゼンテーション
 ### 2. ハンズオン
-1. [SAP Business Technology Platform (BTP) Trial Edition でのSAP Integration Suite プロビジョニング](ex1/README.md)
-2. [SFTPサーバーの設定](ex2/README.md)
-   - SAP Integration Suite でのSFTPサーバーの接続設定
-   - SFTP サーバーへのアクセス
-3. [最初のiFlow の作成と動作トレース](ex3/README.md)
-4. [SFTPアダプターの利用によるファイル連携](ex4/README.md)
-5. [Message Mapping の利用](ex5/README.md)
-6. [ODataアダプターを用いたSAPシステムへの連携](ex6/README.md)
-7. [データ出力のデータフォーマットの変換](ex7/README.md)
-8. [SFTPアダプターを用いたファイルポーリングの方法](ex8/README.md)
-9. [次のステップに向けて: Integration Flow Design Guideline](ex9/README.md)
+
+|演習|
+|-------------------|
+| [演習1:SAP Business Technology Platform (BTP) Trial Edition でのSAP Integration Suite プロビジョニング](ex1/README.md)
+| [演習2:SFTPサーバーの設定](ex2/README.md)
+| [演習3:最初のiFlow の作成と動作トレース](ex3/README.md)
+| [演習4:SFTPアダプターの利用によるファイル連携](ex4/README.md)
+| [演習5:Message Mapping の利用](ex5/README.md)
+| [演習6:ODataアダプターを用いたSAPシステムへの連携](ex6/README.md)
+| [演習7:データ出力のデータフォーマットの変換](ex7/README.md)
+| [演習8:SFTPアダプターを用いたファイルポーリングの方法](ex8/README.md)
+| [演習9:次のステップに向けて: Integration Flow Design Guideline](ex9/README.md)
