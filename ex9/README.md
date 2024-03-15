@@ -43,14 +43,19 @@ SAP Integration Suite にはSAPが提供するベストプラクティスとし�
    
 2. 開いたページにあるタブから`Documents`を選択してください。３つの関連ドキュメントが参照可能です。
 
+  <img src="images/9-2-2.png" alt="table" width="100%">
    
 3. 一番上の`Enterprise Integration Patterns - Postman Collection`をクリックします。その結果として、`Enterprise Integration Pattern`のInteration Flow を実行するためのPOSTMAN用のColection がダウンロードされます。
 
+  <img src="images/9-2-3.png" alt="table" width="100%">
+
 4. 二番目の`Package Documentation on SAP Help Portal`を選択してください。結果として、別のタブでEnterprise向けのIntegration Flow を作成する場合の一般的なパターンをデザインする際のSAP Help内のガイドが表示されます。
 
+  <img src="images/9-2-4.png" alt="table" width="100%">
 
 5. (Integration Suite のタブに戻り、)三番目の`How to Work with the Example Integration Flows`をクリックします。 結果として、別のタブでDesign Guide に含まれるサンプルを実行するためのSAP Help内のガイドが表示されます。
 
+  <img src="images/9-2-5.png" alt="table" width="100%">
 
 </details>
 
