@@ -49,19 +49,18 @@ SAP Integration Suite にはSAPが提供するベストプラクティスとし�
     
     <img src="images/9-2-3.png" alt="table" width="100%">
 
- 4. 結果として以下のように`Design Guideline`が含まれているPackage が表示されます。
-
+ 4. 二番目の`Package Documentation on SAP Help`をクリックします。
 
     <img src="images/9-2-4.png" alt="table" width="100%">
-  　　
-    結果として、別のタブでEnterprise向けのIntegration Flow を作成する場合の一般的なパターンをデザインする際のSAP Help内のガイドが表示されます。
+    
+    >結果として、別のタブでEnterprise向けのIntegration Flow を作成する場合の一般的なパターンをデザインする際のSAP Help内のガイドが表示されます。
     <img src="images/9-2-4-1.png" alt="table" width="100%">
     
  5. (Integration Suite のタブに戻り、)三番目の`How to Work with the Example Integration Flows`をクリックします。
     
     <img src="images/9-2-5.png" alt="table" width="100%">
   　
-   結果として、別のタブでDesign Guide に含まれるサンプルを実行するためのSAP Help内のガイドが表示されます。(POSTMAN のコレクションの利用方法も含む。)
+   >結果として、別のタブでDesign Guide に含まれるサンプルを実行するためのSAP Help内のガイドが表示されます。(POSTMAN のコレクションの利用方法も含む。)
    <img src="images/9-2-5-1.png" alt="table" width="100%">
 
 </details>
@@ -81,15 +80,20 @@ SAP Integration Suite にはSAPが提供するベストプラクティスとし�
 
 3. 検索フィールドに`idoc`と入力してください。結果として`idoc`に関連する３つのArtifacts に表示が絞られます。
 
-   <img src="images/9-3-3.png" alt="table" width="100%">
+   <img src="images/9-3-3.png" alt="table" width="100%">  
+   
+4. 3つのArtifacts から`Pattern Quality Of Service - Scenario 03b`を選択します。
 
+   <img src="images/9-3-4.png" alt="table" width="100%">
+
+   >結果として、Integration Flow `Pattern Quality Of Service - Scenario 03b`が表示されます。
+   >このフローはQuality of Service (QoS: ネットワーク上でのデータ品質)をSOAP → iDoc 連携で行う際のプロセス補償を行うためのフローの一種です。
+   >この方法は様々ありますが、この場合はSned 側がQoSを担保する機能がない場合に、Integration Suite の中でQoSを実現する場合の手法です。
+   >具体的には、JMSのメッセージキューに変換することでメッセージングの仕組みを用いてQoSを担保するフローを作成しています。
+   <img src="images/9-3-5.png" alt="table" width="100%">
+   
 </details>
-ステップ3: Articats Pattern Quality of Service - Scenario 03b の確認
-<details>
-<summary>内容を開く</summary>
-    
-1. 3つのArtifacts から`Pattern Quality Of Service - Scenario 03b`を選択します。
-2. 
+
 
  
     
