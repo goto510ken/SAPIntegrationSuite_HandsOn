@@ -85,7 +85,7 @@ SAP Integration Suite にはSAPが提供するベストプラクティスとし�
    >結果として、以下のようにIntegration Flow `Pattern Quality Of Service - Scenario 03b`が表示されます。
    >このフローはQuality of Service (QoS: ネットワーク上でのデータ品質)をSOAP → iDoc 連携で行う際のプロセス補償を行うためのフローの一種です。
    >この方法は様々ありますが、この場合はSned 側がQoSを担保する機能がない場合に、Integration Suite の中でQoSを実現する場合の手法です。
-   >具体的には、JMSのメッセージキューに変換することでメッセージングの仕組みを用いてQoSを担保するフローを作成しています。
+   >具体的には、Integration Suite内のJMSのメッセージキューに格納することでメッセージングの仕組みを用いてQoSを担保するフローを作成しています。
    <img src="images/9-3-3-1.png" alt="table" width="100%">
    
 </details>
