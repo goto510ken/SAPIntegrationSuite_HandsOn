@@ -91,8 +91,4 @@ SAP Integration Suite にはSAPが提供するベストプラクティスとし�
 </details>
 
 ## まとめ
-
- 
-    
-    
-</details>
+今後、SAP Integration Suite でIntegration Flow を開発する場合に参考となるIntegration Design Guidelineを参照することことで、適切なプロセスフローを構築することが可能になります。
