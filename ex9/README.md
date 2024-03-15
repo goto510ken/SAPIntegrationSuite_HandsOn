@@ -45,17 +45,23 @@ SAP Integration Suite にはSAPが提供するベストプラクティスとし�
 
   <img src="images/9-2-2.png" alt="table" width="100%">
    
-3. 一番上の`Enterprise Integration Patterns - Postman Collection`をクリックします。その結果として、`Enterprise Integration Pattern`のInteration Flow を実行するためのPOSTMAN用のColection がダウンロードされます。
+3. 一番上の`Enterprise Integration Patterns - Postman Collection`をクリックします。結果として、このパッケージ内に含まれるIntegration Flow を実行するためのPOSTMAN のCollection がダウンロードされます。
 
   <img src="images/9-2-3.png" alt="table" width="100%">
 
-4. 二番目の`Package Documentation on SAP Help Portal`を選択してください。結果として、別のタブでEnterprise向けのIntegration Flow を作成する場合の一般的なパターンをデザインする際のSAP Help内のガイドが表示されます。
+4. 二番目の`Package Documentation on SAP Help Portal`を選択してください。
 
   <img src="images/9-2-4.png" alt="table" width="100%">
+  
+  結果として、別のタブでEnterprise向けのIntegration Flow を作成する場合の一般的なパターンをデザインする際のSAP Help内のガイドが表示されます。
+  <img src="images/9-2-4-1.png" alt="table" width="100%">
 
-5. (Integration Suite のタブに戻り、)三番目の`How to Work with the Example Integration Flows`をクリックします。 結果として、別のタブでDesign Guide に含まれるサンプルを実行するためのSAP Help内のガイドが表示されます。
+5. (Integration Suite のタブに戻り、)三番目の`How to Work with the Example Integration Flows`をクリックします。 
 
-  <img src="images/9-2-5.png" alt="table" width="100%">
+  <img src="images/9-2-5.png" alt="table" width="100%"> 
+  
+  結果として、別のタブでDesign Guide に含まれるサンプルを実行するためのSAP Help内のガイドが表示されます。(POSTMAN のコレクションの利用方法も含む。)
+  <img src="images/9-2-5-1.png" alt="table" width="100%">
 
 </details>
 
