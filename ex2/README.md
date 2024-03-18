@@ -26,18 +26,18 @@
 
  2. メニューから`Monitor` → `Integrations and APIs`を選択します。
     
-    <img src="images/2-1-2.png" alt="table" width="40%">
+    <img src="images/2-1-2.png" alt="table" width="100%">
 
  3. 表示された画面から`Manage Security`グループにある`Keystore` タイルを選択してください。 
     
-    <img src="images/2-1-3.png" alt="table" width="40%">
+    <img src="images/2-1-3.png" alt="table" width="100%">
 
 
  4. リストの右上にある`Add`→ `SSH Key`を選択してください。
     
-    <img src="images/2-1-4.png" alt="table" width="40%">
+    <img src="images/2-1-4.png" alt="table" width="100%">
  
- 4. 開いたポップアップ画面のパラメータに以下のように入力して、`Add`ボタンを押してください。
+ 5. 開いたポップアップ画面のパラメータに以下のように入力して、`Add`ボタンを押してください。
 
     |パラメータ|入力項目|
     |--|--|
@@ -46,11 +46,11 @@
     |Common Unit(CN)|講師より共有されたSFTPサーバーの`IPアドレス`を参照してください。|
     |Country/Region|`JP`|
     
-    <img src="images/2-1-5.png" alt="table" width="40%">
+    <img src="images/2-1-5.png" alt="table" width="100%">
     
- 5. 一覧の中に`sftpuser_ssh_key`が追加されます。確認後、ページ左上にあるリンク`Overview`を推して前画面に戻ってください。 
+ 6. 一覧の中に`sftpuser_ssh_key`が追加されます。確認後、ページ左上にあるリンク`Overview`を推して前画面に戻ってください。 
     
-    <img src="images/2-1-6.png" alt="table" width="40%">
+    <img src="images/2-1-6.png" alt="table" width="100%">
     
 </details>
 
