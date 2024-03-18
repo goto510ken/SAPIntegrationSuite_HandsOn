@@ -3,7 +3,7 @@
 ## 目的
 本ワークショップではクラウド環境でのファイル連携の方法としてSFTP サーバーを利用します。本演習では以下の内容を実施します。
 1. SAP Integration Suite の Keystore へのSSH証明書の登録
-2. Keystore を用いたSFTPサーバーへの接続テスト
+2. 登録したKeystore を用いたSFTPサーバーへの接続テスト
 3. Know.host へのSFTPサーバーの登録および再度の接続テスト 
 
 <img src="images/9-intro.png" alt="table" width="100%">
@@ -37,7 +37,7 @@
     
     <img src="images/2-1-4.png" alt="table" width="40%">
  
- 4. 開いたポップアップ画面に以下のように入力して、`Add`ボタンを押してください。
+ 4. 開いたポップアップ画面のパラメータに以下のように入力して、`Add`ボタンを押してください。
 
     |パラメータ|入力項目|
     |--|--|
@@ -48,7 +48,50 @@
     
     <img src="images/2-1-5.png" alt="table" width="40%">
     
- 5. 一覧の中に`sftpuser_ssh_key`が追加されます。確認後、ページ左上にあるリンク`Overview`を推して全画面に戻ってください。 
+ 5. 一覧の中に`sftpuser_ssh_key`が追加されます。確認後、ページ左上にあるリンク`Overview`を推して前画面に戻ってください。 
+    
+    <img src="images/2-1-6.png" alt="table" width="40%">
+    
+</details>
+
+
+ステップ2: 登録したKeystore を用いたSFTPサーバーへの接続テスト
+<details>
+<summary>内容を開く</summary>
+
+ 1. `Manage Security`グループにある`Connectivity Tests` タイルを選択してください。 
+    
+    <img src="images/2-1-1.png" alt="table" width="100%">
+    
+ 2. タブから`SSH`を選択します。
+    
+    <img src="images/2-1-2.png" alt="table" width="40%">
+
+ 3. Resquest 画面にある以下のパラメータに以下のように入力をして、`Send`ボタンを押してください。
+
+    |パラメータ|入力項目|
+    |--|--|
+    |Host:|講師より共有されたSFTPサーバーの`IPアドレス`を参照してください。|
+    |Port:|`22` *デフォルトのまま|
+    |Authentication:|`Public Key`を選択|
+    |User Name:|`sftpuser`|
+    |Private Key Alias:|ステップ1で作成した`sftpuser_ssh_key`を選択|
+    |Host Key Verification:|`Off`を選択|
+     
+    <img src="images/2-1-3.png" alt="table" width="40%">
+
+
+ 4. 画面右に`Sccessfully reached host at xxx.xxx.xxx.xxx` (xxx.xxx.xxx.xxxはIPアドレス)と表示されます。
+    
+    <img src="images/2-1-4.png" alt="table" width="40%">
+ 
+ 5. メッセージの下の`Copy Host Key`を推します。その結果、Host Key がPCクリップボードにコピーされます。
+    
+    <img src="images/2-1-5.png" alt="table" width="40%">
+
+    > クリップボードにコピーされたHost Key は念の為、Notepad 等にコピーして保存しておくことをお勧めします。
+    
+ 6. 確認後、ページ左上にあるリンク`Overview`を推して前画面に戻ってください。 
     
     <img src="images/2-1-6.png" alt="table" width="40%">
     
