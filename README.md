@@ -24,7 +24,7 @@ SAP Integration Suite を初めて使用するITプロフェッショナルに�
 |演習|
 |-------------------|
 | [演習1:SAP Business Technology Platform (BTP) Trial Edition でのSAP Integration Suite プロビジョニング](ex1/README.md)
-| [演習2:SFTPサーバーの設定](ex2/README.md)
+| [演習2:SAP Integration SuiteでのSFTPサーバーの設定](ex2/README.md)
 | [演習3:最初のiFlow の作成と動作トレース](ex3/README.md)
 | [演習4:SFTPアダプターの利用によるファイル連携](ex4/README.md)
 | [演習5:Message Mapping の利用](ex5/README.md)
