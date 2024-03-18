@@ -4,7 +4,7 @@
 本ワークショップではクラウド環境でのファイル連携の方法としてSFTP サーバーを利用します。本演習では以下の内容を実施します。
 1. SAP Integration Suite の Keystore へのSSH証明書の登録
 2. 登録したKeystore を用いたSFTPサーバーへの接続テスト
-3. Know.host へのSFTPサーバーの登録および再度の接続テスト 
+3. Know.host へのSFTPサーバーの登録およびSAP Integration Suiteへのアップロードおよび再度の接続テスト 
 
 <img src="images/9-intro.png" alt="table" width="100%">
 
@@ -97,7 +97,7 @@
     
 </details>
 
-ステップ3: 登録したKeystore を用いたSFTPサーバーへの接続テスト
+ステップ3: Know.host へのSFTPサーバーの登録およびSAP Integration Suiteへのアップロードおよび再度の接続テスト
 <details>
 <summary>内容を開く</summary>
 
