@@ -1,7 +1,9 @@
 # 演習2.SFTPサーバーの設定
 
 ## 目的
-本演習ではクラウド環境でのファイル連携の方法としてSFTP サーバーを利用します。SFTPサーバーをSAP Integration Suite と連携できるようにするための設定およびクライアント側でのSFTPサーバーへのアクセスの確認を行います。
+本ワークショップではクラウド環境でのファイル連携の方法としてSFTP サーバーを利用します。本演習では以下の内容を実施します。
+- クライアント側でのSFTPサーバーへのアクセスの確認
+- SFTPサーバーをSAP Integration Suite と連携できるようにするための設定
 
 <img src="images/9-intro.png" alt="table" width="100%">
 
@@ -10,7 +12,7 @@
 
 ## 手順
 
-ステップ1: Itengration SuiteでのSFTPサーバーの設定
+ステップ1: クライアントPCからのSFTPサーバーへのアクセスの確認
 <details>
 <summary>内容を開く</summary>
 
@@ -33,7 +35,7 @@
 
 </details>
 
-ステップ2: クライアントPCからのSFTPサーバーへのアクセスの確認
+ステップ2: Itengration SuiteでのSFTPサーバーの設定
 <details>
 <summary>内容を開く</summary>
 
@@ -55,3 +57,6 @@
     <img src="images/2-1-4.png" alt="table" width="100%">
 
 </details>
+
+## まとめ
+上記の設定を行うことで、SAP Integration Suite とSFTPサーバーが連携できるようになります。以降の演習ではこちらの設定を用いてSFTPサーバーとSAP Integration Suite の間でファイル連携を行います。
