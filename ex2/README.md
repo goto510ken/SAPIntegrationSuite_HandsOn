@@ -26,7 +26,7 @@
 
  2. メニューから`Monitor` → `Integrations and APIs`を選択します。
     
-    <img src="images/2-1-2.png" alt="table" width="100%">
+    <img src="images/2-1-2.png" alt="table" width="40%">
 
  3. 表示された画面から`Manage Security`グループにある`Keystore` タイルを選択してください。 
     
