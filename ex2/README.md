@@ -16,11 +16,12 @@
 <details>
 <summary>内容を開く</summary>
 
- 1. 
+ 1. Integration Suiteにアクセスします。
     
     <img src="images/2-1-1.png" alt="table" width="100%">
-
-
+    
+    >Integration Suite へは、URL はhttps://`ご利用のIntegration Suite のアドレス`/shell/home でアクセス出来ます。
+    
  2. 
     
     <img src="images/2-1-2.png" alt="table" width="40%">
