@@ -1,4 +1,4 @@
-# 演習2.SAP Integration Suiteでの SFTPサーバーの設定
+# 演習2. SAP Integration Suiteでの SFTPサーバーの設定
 
 ## 目的
 本ワークショップではクラウド環境でのファイル連携の方法としてSFTP サーバーを利用します。本演習では以下の内容を実施します。
