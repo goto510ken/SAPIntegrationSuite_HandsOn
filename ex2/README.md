@@ -97,5 +97,56 @@
     
 </details>
 
+ステップ3: 登録したKeystore を用いたSFTPサーバーへの接続テスト
+<details>
+<summary>内容を開く</summary>
+
+ 1. `Manage Security`グループにある`Security Material` タイルを選択してください。 
+    
+    <img src="images/2-1-1.png" alt="table" width="100%">
+    
+ 2. リストから`known host`を選択して、ダウンロードボタンを押してください。
+     
+    <img src="images/2-1-3.png" alt="table" width="40%">
+
+
+ 3. ダウンロードした`known host`ファイルをnotepad等で開き、ステップ2.5.でクリップボードにコピーされた`Host Key`を追加して、ファイルを`保存`してください。
+    
+    <img src="images/2-1-4.png" alt="table" width="40%">
+    > 画面はMacの画面となります。
+ 
+ 5. (SAP Integration Suite の画面に戻り、)`Manage Security`グループにある`Connectivity Tests` タイルを選択してください。
+    
+    <img src="images/2-1-5.png" alt="table" width="40%">
+    
+ 6. タブから`SSH`を選択します。
+   
+    <img src="images/2-1-6.png" alt="table" width="40%">
+
+    
+ 7. Resquest 画面にある以下のパラメータに以下のように入力をして、`Send`ボタンを押してください。
+
+    |パラメータ|入力項目|
+    |--|--|
+    |Host:|講師より共有されたSFTPサーバーの`IPアドレス`を参照してください。|
+    |Port:|`22` *デフォルトのまま|
+    |Authentication:|`Public Key`を選択|
+    |User Name:|`sftpuser`|
+    |Private Key Alias:|ステップ1で作成した`sftpuser_ssh_key`を選択|
+    |Host Key Verification:|`Ageinst Tenant`を選択 *デフォルトのまま|   
+
+    <img src="images/2-1-7.png" alt="table" width="40%">
+    
+ 8. 画面右に`Sccessfully reached host at xxx.xxx.xxx.xxx` (xxx.xxx.xxx.xxxはIPアドレス)と表示されます。これでSFTPサーバーの接続設定が完了しました。
+   
+    <img src="images/2-1-8.png" alt="table" width="40%">
+    
+ 9. 確認後、ページ左上にあるリンク`Overview`を推して前画面に戻ってください。
+   
+    <img src="images/2-1-9.png" alt="table" width="40%">
+    
+    
+</details>
+
 ## まとめ
 上記の設定を行うことで、SAP Integration Suite とSFTPサーバーが連携できるようになります。以降の演習ではこちらの設定を用いてSFTPサーバーとSAP Integration Suite の間でファイル連携を行います。
