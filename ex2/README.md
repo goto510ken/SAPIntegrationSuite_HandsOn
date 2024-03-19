@@ -113,7 +113,7 @@
  3. (任意のフォルダに)ダウンロードした`known host`ファイルをnotepad等で開き、ステップ2-5.でクリップボードにコピーされた`Host Key`を追加して、ファイルを`保存`してください。
     
     <img src="images/2-3-3.png" alt="table" width="40%">
-    > 画面はMacの画面となります。
+    > 画面はMacの画面となります。画面では、known host にエントリーを１つ追加した状態になっています。
  
  4. (SAP Integration Suite の画面に戻り、)`Manage Security`グループにある`Connectivity Tests` タイルを選択してください。
     
