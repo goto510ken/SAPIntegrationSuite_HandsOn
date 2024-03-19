@@ -31,4 +31,4 @@ SAP Integration Suite を初めて使用するITプロフェッショナルに�
 | [演習6: ODataアダプターを用いたSAPシステムへの連携](ex6/README.md)
 | [演習7: データ出力のデータフォーマットの変換](ex7/README.md)
 | [演習8: SFTPアダプターを用いたファイルポーリングの方法](ex8/README.md)
-| [演習9: 次のステップに向けて: Integration Flow Design Guidelineの確認](ex9/README.md)
+| [演習9: 次のステップに向けて ~ Integration Flow Design Guidelineの確認](ex9/README.md)
