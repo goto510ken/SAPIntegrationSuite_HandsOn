@@ -115,16 +115,20 @@
     <img src="images/2-3-3.png" alt="table" width="40%">
     > 画面はMacの画面となります。画面では、known host にエントリーを１つ追加した状態になっています。
  
- 4. (SAP Integration Suite の画面に戻り、)`Manage Security`グループにある`Connectivity Tests` タイルを選択してください。
+ 4. (SAP Integration Suite の画面に戻り、) `Security Material`にあるリストの右上にある`Upload` → `known host (SSH)`を押して、先ほどのステップで保存した`known host`をアップロードします。
     
     <img src="images/2-3-4.png" alt="table" width="40%">
+  
+ 5. `Manage Security`グループにある`Connectivity Tests` タイルを選択してください。
     
- 5. タブから`SSH`を選択します。
-   
     <img src="images/2-3-5.png" alt="table" width="40%">
+    
+ 6. タブから`SSH`を選択します。
+   
+    <img src="images/2-3-6.png" alt="table" width="40%">
 
     
- 6. Resquest 画面にある以下のパラメータに以下のように入力をして、`Send`ボタンを押してください。
+ 7. Resquest 画面にある以下のパラメータに以下のように入力をして、`Send`ボタンを押してください。
 
     |パラメータ|入力項目|
     |--|--|
@@ -135,15 +139,15 @@
     |Private Key Alias:|ステップ1で作成した`sftpuser_ssh_key`を選択|
     |Host Key Verification:|`Ageinst Tenant`を選択 *デフォルトのまま|   
 
-    <img src="images/2-3-6.png" alt="table" width="40%">
-    
- 7. 画面右に`Sccessfully reached host at xxx.xxx.xxx.xxx` (xxx.xxx.xxx.xxxはIPアドレス)と表示されます。これでSFTPサーバーの接続設定が完了しました。
-   
     <img src="images/2-3-7.png" alt="table" width="40%">
     
- 8. 確認後、ページ左上にあるリンク`Overview`を推して前画面に戻ってください。
+ 8. 画面右に`Sccessfully reached host at xxx.xxx.xxx.xxx` (xxx.xxx.xxx.xxxはIPアドレス)と表示されます。これでSFTPサーバーの接続設定が完了しました。
    
     <img src="images/2-3-8.png" alt="table" width="40%">
+    
+ 9. 確認後、ページ左上にあるリンク`Overview`を推して前画面に戻ってください。
+   
+     <img src="images/2-3-9.png" alt="table" width="40%">
     
     
 </details>
