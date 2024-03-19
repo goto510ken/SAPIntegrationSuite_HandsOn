@@ -113,6 +113,7 @@
  3. (任意のフォルダに)ダウンロードした`known host`ファイルをnotepad等で開き、ステップ2-5.でクリップボードにコピーされた`Host Key`を追加して、ファイルを`保存`してください。
     
     <img src="images/2-3-3.png" alt="table" width="100%">
+    
     > 画面はMacの画面となります。画面では、known host にエントリーを１つ追加した状態になっています。
  
  4. (SAP Integration Suite の画面に戻り、) `Security Material`にあるリストの右上にある`Upload` → `known host (SSH)`を押して、先ほどのステップで保存した`known host`をアップロードします。アップロードが完了したら、画面左上の`Overview`をを押して前画面に戻ってください。
