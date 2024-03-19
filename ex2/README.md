@@ -63,7 +63,7 @@
     
     <img src="images/2-2-1.png" alt="table" width="100%">
     
- 2. タブから`SSH`を選択します。
+ 2. 表示された画面にあるタブから`SSH`を選択します。
     
     <img src="images/2-2-2.png" alt="table" width="40%">
 
