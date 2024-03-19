@@ -91,7 +91,7 @@
 
     > クリップボードにコピーされたHost Key は念の為、Notepad 等にコピーして保存しておくことをお勧めします。
     
- 6. 確認後、ページ左上にあるリンク`Overview`を推して前画面に戻ってください。 
+ 6. 確認後、ページ左上にあるリンク`Overview`を押して前画面に戻ってください。 
     
     <img src="images/2-2-6.png" alt="table" width="40%">
     
@@ -115,10 +115,10 @@
     <img src="images/2-3-3.png" alt="table" width="40%">
     > 画面はMacの画面となります。画面では、known host にエントリーを１つ追加した状態になっています。
  
- 4. (SAP Integration Suite の画面に戻り、) `Security Material`にあるリストの右上にある`Upload` → `known host (SSH)`を押して、先ほどのステップで保存した`known host`をアップロードします。
+ 4. (SAP Integration Suite の画面に戻り、) `Security Material`にあるリストの右上にある`Upload` → `known host (SSH)`を押して、先ほどのステップで保存した`known host`をアップロードします。アップロードが完了したら、画面左上の`Overview`をを押して前画面に戻ってください。
     
     <img src="images/2-3-4.png" alt="table" width="40%">
-  
+    
  5. `Manage Security`グループにある`Connectivity Tests` タイルを選択してください。
     
     <img src="images/2-3-5.png" alt="table" width="40%">
