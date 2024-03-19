@@ -105,12 +105,12 @@
     
     <img src="images/2-3-1.png" alt="table" width="100%">
     
- 2. リストから`known host`を選択して、ダウンロードボタンを押してください。
+ 2. 表示された画面にあるリストから`known host`を選択して、ダウンロードボタンを押してください。
      
     <img src="images/2-3-2.png" alt="table" width="40%">
 
 
- 3. ダウンロードした`known host`ファイルをnotepad等で開き、ステップ2.5.でクリップボードにコピーされた`Host Key`を追加して、ファイルを`保存`してください。
+ 3. ダウンロードした`known host`ファイルをnotepad等で開き、ステップ2-5.でクリップボードにコピーされた`Host Key`を追加して、ファイルを`保存`してください。
     
     <img src="images/2-3-3.png" alt="table" width="40%">
     > 画面はMacの画面となります。
