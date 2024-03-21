@@ -8,6 +8,7 @@ SAP Integration Suite を初めて使用するITプロフェッショナルに�
 5. メッセージマッピングの方法
 6. SAP システムへのアクセス方法(ODataアダプターの利用)
 7. iFlow のトレース方法
+8. SAP Integration Flow Design Guideline の確認方法
    
 ## 前提
 - 利用環境は`SAP Business Technologyy Platform (BTP) Trial edition` のIntegration Suiteの利用を前提としています。
