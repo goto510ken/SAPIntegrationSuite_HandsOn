@@ -1,14 +1,14 @@
 # SAP Integration Suite ハンズオンワークショップ - Integration 概要理解編
 ## 目的
 SAP Integration Suite を初めて使用するITプロフェッショナルに以下の内容を理解いただくこと。
-1. SAP Business Technology Platform (BTP) Trial Edition および含まれるIntegration Suite のプロビジョニング
-2. SAP Integration Suite の各種ツールの目的および利用方法
-3. SAP Integration Suite でのプロセスフローの作成(iFlow)の作成方法
-4. SFTPによるファイル連携およびCSV <-> XML形式への変換方法
-5. メッセージマッピングの方法
-6. SAP システムへのアクセス方法(ODataアダプターの利用)
-7. iFlow のトレース方法
-8. SAP Integration Flow Design Guideline の確認方法
+1. SAP Business Technology Platform (BTP) Trial Edition および含まれる`SAP Integration Suite のプロビジョニング`
+2. SAP Integration Suite の`各種ツールの目的および利用方法`
+3. SAP Integration Suite での`プロセスフローの作成(iFlow)の作成方法`
+4. `SFTPアダプター`によるファイル連携および`CSV <-> XML形式への変換`
+5. `メッセージマッピング`の方法
+6. `SAP システムへのアクセス`方法(ODataアダプターの利用)
+7. iFlow の`トレース`方法
+8. `Integration Flow Design Guideline` の確認方法
    
 ## 前提
 - 利用環境は`SAP Business Technologyy Platform (BTP) Trial edition` のIntegration Suiteの利用を前提としています。
