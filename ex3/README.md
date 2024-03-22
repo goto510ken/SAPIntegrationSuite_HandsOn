@@ -1,15 +1,15 @@
-# 演習3: SAP Integration Suiteでの SFTPサーバーの設定
+# 演習3:  最初のIntegration Flow (iFlow) の作成と動作トレース
 
 ## 目的
-本ワークショップではSAP Integration Suite での単純なIntegration Flow (iFlow) を作成します。本演習では以下の内容を実施します。
+本ワークショップではSAP Integration Suite での単純なIntegration Flow (以下、iFlow) を作成します。本演習では以下の内容を実施します。
 1. SAP Integration Suit パッケージおよびiFlow の作成
-2. 単純なIntegration Flow (iFlow) の作成とディプロイ
+2. 単純なiFlow のステップ作成とディプロイ
 3. SFTPサーバーへアクセスして出力された結果の確認
 4. iFlow のトレース (デバック)
 
 <img src="images/3-intro.png" alt="table" width="100%">
 
->本演習で作成したIntegration Flow (iFlow) は次のようなステップで実行されます。
+>本演習で作成したiFlow は次のようなステップで実行されます。
 >1.ディプロイ時に`タイマーでプロセス開始`
 >2.プロセス内部で`ダミーのCSV形式データ`を設定
 >3.ダミーデータを`SFTPサーバーにCSVファイルとして出力`してプロセス終了
@@ -49,7 +49,7 @@
     
 </details>
 
-ステップ2: 単純なIntegration Flow (iFlow) の作成とディプロイ 
+ステップ2: 単純なiFlow の作成とディプロイ 
 <details>
 <summary>内容を開く</summary>
 
@@ -79,7 +79,7 @@
     
 </details>
 
-ステップ3: 
+ステップ3: SFTPサーバーへアクセスして出力された結果の確認
 <details>
 <summary>内容を開く</summary>
 
@@ -107,7 +107,7 @@
     
 </details>
 
-ステップ4:  
+ステップ4: iFlow のトレース (デバック) 
 <details>
 <summary>内容を開く</summary>
 
