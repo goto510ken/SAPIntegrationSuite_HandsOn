@@ -5,7 +5,7 @@
 1. SAP Integration Suit パッケージおよびiFlow の作成
 2. 単純なIntegration Flow (iFlow) の作成とディプロイ
 3. SFTPサーバーへアクセスして出力された結果の確認
-4. iFlow のトレース方法 
+4. iFlow のトレース (デバック)
 
 <img src="images/3-intro.png" alt="table" width="100%">
 
@@ -16,7 +16,7 @@
 
 ## 手順
 
-ステップ1: 
+ステップ1: SAP Integration Suit パッケージおよびiFlow の作成
 <details>
 <summary>内容を開く</summary>
 
@@ -45,42 +45,92 @@
     <img src="images/3-1-5.png" alt="table" width="100%">
     
  8.
-    <img src="images/2-1-6.png" alt="table" width="100%">
+    <img src="images/3-1-6.png" alt="table" width="100%">
     
 </details>
 
-ステップ2: 
+ステップ2: 単純なIntegration Flow (iFlow) の作成とディプロイ 
 <details>
 <summary>内容を開く</summary>
 
  1. Integration Suiteにアクセスします。
     
-    <img src="images/3-1-1.png" alt="table" width="100%">
-    
-    >Integration Suite へは、URL はhttps://`ご利用のIntegration Suite のアドレス`/shell/home でアクセス出来ます。
+    <img src="images/3-2-1.png" alt="table" width="100%">
     
 
  2. メニューから`Monitor` → `Integrations and APIs`を選択します。
     
-    <img src="images/3-1-2.png" alt="table" width="40%">
+    <img src="images/3-2-2.png" alt="table" width="40%">
 
  3. 
     
-    <img src="images/3-1-3.png" alt="table" width="100%">
-
+    <img src="images/3-2-3.png" alt="table" width="100%">
 
  4. 
     
-    <img src="images/3-1-4.png" alt="table" width="100%">
+    <img src="images/3-2-4.png" alt="table" width="100%">
  
  5.
     
-    <img src="images/3-1-5.png" alt="table" width="100%">
+    <img src="images/3-2-5.png" alt="table" width="100%">
     
  6.
-    <img src="images/2-1-6.png" alt="table" width="100%">
+    <img src="images/3-2-6.png" alt="table" width="100%">
     
 </details>
 
+ステップ3: 
+<details>
+<summary>内容を開く</summary>
+
+    
+
+ 1. メニューから`Monitor` → `Integrations and APIs`を選択します。
+    
+    <img src="images/3-3-1.png" alt="table" width="40%">
+
+ 2. 
+    
+    <img src="images/3-3-2.png" alt="table" width="100%">
 
 
+ 3. 
+    
+    <img src="images/3-3-3.png" alt="table" width="100%">
+ 
+ 4.
+    
+    <img src="images/3-3-4.png" alt="table" width="100%">
+    
+ 5.
+    <img src="images/3-3-5.png" alt="table" width="100%">
+    
+</details>
+
+ステップ4:  
+<details>
+<summary>内容を開く</summary>
+
+ 1. Integration Suiteにアクセスします。
+    
+    <img src="images/3-4-1.png" alt="table" width="100%">
+    
+
+ 2. メニューから`Monitor` → `Integrations and APIs`を選択します。
+    
+    <img src="images/3-4-2.png" alt="table" width="40%">
+
+ 3. 
+    
+    <img src="images/3-4-3.png" alt="table" width="100%">
+
+ 4. 
+    
+    <img src="images/3-4-4.png" alt="table" width="100%">
+ 
+ 5.
+    
+    <img src="images/3-4-5.png" alt="table" width="100%">
+    
+ 6.
+    <img src="images/3-4-6.png" alt="table" width="100%">
