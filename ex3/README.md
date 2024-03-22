@@ -1,10 +1,10 @@
-# 演習3:  最初のIntegration Flow (iFlow) の作成と動作トレース
+# 演習3:  最単純なIntegration Flow (iFlow) の作成と動作トレース
 
 ## 目的
 本ワークショップではSAP Integration Suite での単純なIntegration Flow (以下、iFlow) を作成します。本演習では以下の内容を実施します。
 1. SAP Integration Suit パッケージおよびiFlow の作成
-2. 単純なiFlow のステップ作成とディプロイ
-3. iFlow のトレース (デバック)してプロセス終了時のメッセージ内部のコンテンツ確認
+2. 最単純なiFlow のステップ作成とディプロイ
+3. iFlow のトレース (デバック)してプロセス終了時のメッセージ内部のコンテンツの確認
 
 <img src="images/3-intro.png" alt="table" width="100%">
 
@@ -48,7 +48,7 @@
     
 </details>
 
-ステップ2: 単純なiFlow の作成とディプロイ 
+ステップ2: 最単純なiFlow の作成とディプロイ 
 <details>
 <summary>内容を開く</summary>
 
@@ -78,7 +78,7 @@
     
 </details>
 
-ステップ3: iFlow のトレース (デバック) してプロセス終了時のメッセージ内部のコンテンツ確認
+ステップ3: iFlow のトレース (デバック) してプロセス終了時のメッセージ内部のコンテンツの確認
 <details>
 <summary>内容を開く</summary>
 
