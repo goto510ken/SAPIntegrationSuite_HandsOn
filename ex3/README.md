@@ -4,15 +4,14 @@
 本ワークショップではSAP Integration Suite での単純なIntegration Flow (以下、iFlow) を作成します。本演習では以下の内容を実施します。
 1. SAP Integration Suit パッケージおよびiFlow の作成
 2. 単純なiFlow のステップ作成とディプロイ
-3. SFTPサーバーへアクセスして出力された結果の確認
-4. iFlow のトレース (デバック)
+3. iFlow のトレース (デバック)してプロセス終了時のメッセージ内部のコンテンツ確認
 
 <img src="images/3-intro.png" alt="table" width="100%">
 
 >本演習で作成したiFlow は次のようなステップで実行されます。
 >1.ディプロイ時に`タイマーでプロセス開始`
 >2.プロセス内部で`ダミーのCSV形式データ`を設定
->3.ダミーデータを`SFTPサーバーにCSVファイルとして出力`してプロセス終了
+>3.ダミーデータをメッセージ内に格納してプロセス終了
 
 ## 手順
 
@@ -79,35 +78,7 @@
     
 </details>
 
-ステップ3: SFTPサーバーへアクセスして出力された結果の確認
-<details>
-<summary>内容を開く</summary>
-
-    
-
- 1. メニューから`Monitor` → `Integrations and APIs`を選択します。
-    
-    <img src="images/3-3-1.png" alt="table" width="40%">
-
- 2. 
-    
-    <img src="images/3-3-2.png" alt="table" width="100%">
-
-
- 3. 
-    
-    <img src="images/3-3-3.png" alt="table" width="100%">
- 
- 4.
-    
-    <img src="images/3-3-4.png" alt="table" width="100%">
-    
- 5.
-    <img src="images/3-3-5.png" alt="table" width="100%">
-    
-</details>
-
-ステップ4: iFlow のトレース (デバック) 
+ステップ3: iFlow のトレース (デバック) してプロセス終了時のメッセージ内部のコンテンツ確認
 <details>
 <summary>内容を開く</summary>
 
