@@ -74,7 +74,7 @@
     <img src="images/3-2-1.png" alt="table" width="100%">
     
 
- 2. メニューから編集メニューにある`Event`の中から`Timer`イベント*を選択して、Integration Prcess 内の Sart とEnd を結ぶ線上に配置してください。　* `Timerイベントは一番下にあるので、見つからなら場合は、Event自体をスクロールすると表示されます。`
+ 2. メニューから編集メニューにある`Event`の中から`Timer`イベント*を選択して、Integration Prcess 内の Start とEnd を結ぶ線上に配置してください。　* `Timerイベントは一番下にあるので、見つからなら場合は、Event自体をスクロールすると表示されます。`
     
     <img src="images/3-2-2.png" alt="table" width="40%">
     
@@ -104,12 +104,39 @@
     >Time イベントのその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/define-timer-start-event)をご確認ください。
 
  
- 6.
+ 5.`デフォルトのStart` イベントを選択すると、メニューが表示されます。一番下にある`Delete`ボタンを押して、`デフォルトのStart` イベントを削除してください。
+
+   <img src="images/3-2-5.png" alt="table" width="100%">
     
-    <img src="images/3-2-5.png" alt="table" width="100%">
-    
- 7.
+ 6. メニューから編集メニューにある`Transformation`の中から`Content Modifier`イベントを選択して、Integration Prcess 内の `Time Start` とEnd を結ぶ線上に配置してください。
+
     <img src="images/3-2-6.png" alt="table" width="100%">
+
+   以下、Content Modifier をIntegration Prcess 内の `Timer Sart` とEnd を結ぶ線上に配置した状態。
+    <img src="images/3-2-6-1.png" alt="table" width="100%">
+    
+ 7. 画面下部のContent Modifier のプロパティが表示されます。こちらの`General`タブおよび`Message Body`タブの値を以下のように変更してください。
+
+    `General`タブ
+    |パラメータ|入力項目|
+    |--|--|
+    |Name:|Set dummy data|
+    
+    <img src="images/3-2-7.png" alt="table" width="100%">
+
+    `Message Body`タブ
+    |パラメータ|入力項目|
+    |--|--|
+    |Type:|Expression *`デフォルト`のまま|
+    |Body:|[こちらのコード]()をコピーしてください。|
+    
+    <img src="images/3-2-7-1.png" alt="table" width="100%">
+
+    >Content Modifier のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/define-content-modifier)をご確認ください。
+    
+ 9. 
+ 
+ 
     
 </details>
 
