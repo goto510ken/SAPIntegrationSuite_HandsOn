@@ -128,7 +128,7 @@
     |パラメータ|入力項目|
     |--|--|
     |Type:|Expression *`デフォルト`のまま|
-    |Body:|[こちらのコード](ex3/sources/Product.csv)をコピーしてください。|
+    |Body:|[こちらのコード](sources/Product.csv)をコピーしてください。|
     
     <img src="images/3-2-7-1.png" alt="table" width="100%">
 
