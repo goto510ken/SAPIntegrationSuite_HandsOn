@@ -69,14 +69,16 @@
 <details>
 <summary>内容を開く</summary>
 
- 1. Integration Suiteにアクセスします。
+ 1. Integration Flow のEditor画面の右上にある`Edit`ボタンを押して、編集モードに変更してください。。
     
     <img src="images/3-2-1.png" alt="table" width="100%">
     
 
- 2. メニューから`Monitor` → `Integrations and APIs`を選択します。
+ 2. メニューから編集メニューにある`Event`の中から`Timer`イベント*を選択して、デフォルトのIntegration Prcess 内の Sart とEnd を結ぶ線にドロップしてください。　* `Timer`イベントは一番下にあるので、見つからなら場合は、`Event`自体をスクロールさせてみてください。
     
-    <img src="images/3-2-2.png" alt="table" width="40%">
+    <img src="images/3-2-2.png" alt="table" width="100%">
+
+    <img src="images/3-2-2-1.png" alt="table" width="100%">
 
  3. 
     
