@@ -6,7 +6,7 @@
 2. 最単純なiFlow のステップ作成とディプロイ
 3. iFlow のトレース (デバック)してプロセス終了時のメッセージ内部のコンテンツの確認
 
-<img src="images/3-intro.png" alt="table" width="100%">
+<img src="images/3-Intro.png" alt="table" width="100%">
 
 >本演習で作成したiFlow は次のようなステップで実行されます。
 >1.ディプロイ時に`タイマーでプロセス開始`
