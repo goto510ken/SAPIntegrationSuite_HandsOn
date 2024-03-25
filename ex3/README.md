@@ -57,7 +57,7 @@
     |ID:|Nameを入力すると自動的に入力されます。`そのまま`にしてください。| 
     |Runtime Profile:|Cloud Integration *`デフォルト`のまま|
     
-    <img src="images/3-1-6.png" alt="table" width="100%">
+    <img src="images/3-1-6.png" alt="table" width="60%">
     
        最終的に、Integration Flow が作成され、Editorが開いた状態になります。
     
