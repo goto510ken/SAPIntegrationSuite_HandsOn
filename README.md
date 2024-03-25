@@ -13,7 +13,7 @@ SAP Integration Suite を初めて使用するITプロフェッショナルに�
 ## 前提
 - 利用環境は`SAP Business Technologyy Platform (BTP) Trial edition` のIntegration Suiteの利用を前提としています。
 - SFTP サーバーは弊社で準備したものを利用します。こちらの`アクセス方法などは別途`よりご連絡させて頂きます。
-- 本ハンズオンで作成されるIntegration Flowは、`SAP Integration Suite の機能を理解することを目的`にしています。従って実際の業務プロセスでの利用を想定していません。
+- 本ハンズオンで作成されるIntegration Flowは、`SAP Integration Suite の機能を理解することを目的`にしています。従って実際の業務プロセスでの利用を想定していません。またハンズオンの進め方も`最単純なIntegration Flow を作成し、少しづつ拡張するアプローチ`を採用しています。
   
 ## 対象者
 - `ITプロフェッショナル`を想定 (これまでSAPシステム連携を行ったことがある、もしくは類似のEAIもしくはETLツールの利用経験があれば尚可)
