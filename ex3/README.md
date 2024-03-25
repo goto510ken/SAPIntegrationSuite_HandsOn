@@ -74,25 +74,40 @@
     <img src="images/3-2-1.png" alt="table" width="100%">
     
 
- 2. メニューから編集メニューにある`Event`の中から`Timer`イベント*を選択して、デフォルトのIntegration Prcess 内の Sart とEnd を結ぶ線にドロップしてください。　* `Timer`イベントは一番下にあるので、見つからなら場合は、`Event`自体をスクロールさせてみてください。
+ 2. メニューから編集メニューにある`Event`の中から`Timer`イベント*を選択して、デフォルトのIntegration Prcess 内の Sart とEnd を結ぶ線にドロップしてください。　* `Timerイベントは一番下にあるので、見つからなら場合は、Event自体をスクロールすると表示されます。`
     
     <img src="images/3-2-2.png" alt="table" width="100%">
 
     <img src="images/3-2-2-1.png" alt="table" width="100%">
 
- 3. 
+ 3. Timer イベントを選択したままの状態で、画面右下の`Restore`ボタンを押します。
     
     <img src="images/3-2-3.png" alt="table" width="100%">
 
- 4. 
+ 4. 画面下部に表示されたTimer イベントのプロパティが表示されます。こちらの`General`タブおよび`Scheduler`タブの値を以下のように変更してください。
+
+    `General`タブ
+    |パラメータ|入力項目|
+    |--|--|
+    |Name:|Start Timer|
     
     <img src="images/3-2-4.png" alt="table" width="100%">
+
+    `Scheduler`タブ
+    |パラメータ|入力項目|
+    |--|--|
+    |ラジオボタン `Run Once`|チェック *`デフォルト`のまま|
+    
+    <img src="images/3-2-4-1.png" alt="table" width="100%">
+
+    >Time イベントのその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/define-timer-start-event)をご確認ください。
+
  
- 5.
+ 6.
     
     <img src="images/3-2-5.png" alt="table" width="100%">
     
- 6.
+ 7.
     <img src="images/3-2-6.png" alt="table" width="100%">
     
 </details>
