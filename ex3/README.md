@@ -55,7 +55,7 @@
     |ラジオボタン`Create`|チェック *`デフォルト`のまま|
     |Name:|`Integration Flow for xx` *`xx`については講師から`指定された数字に数字に置き換え`てください。|
     |ID:|Nameを入力すると自動的に入力されます。`そのまま`にしてください。| 
-    |Runtime Profile:|Cloud Integration *`デフォルト`のまま|
+    |Runtime Profile:|`Cloud Integration` *デフォルトのまま|
     
     <img src="images/3-1-6.png" alt="table" width="60%">
     
@@ -127,8 +127,12 @@
     `Message Body`タブ
     |パラメータ|入力項目|
     |--|--|
-    |Type:|Expression *`デフォルト`のまま|
-    |Body:|[こちらのコード](sources/Product.csv)をコピーしてください。|
+    |Type:|`Expression` *デフォルトのまま|
+    |Body:|以下のコードをコピーしてください。|
+    ```csv
+    ProductIdentifier,Text,Price,Currency,Unit,Category,Sub-Category,Supplier
+    HT-1000,,,,,,,
+    ```
     
     <img src="images/3-2-7-1.png" alt="table" width="100%">
 
