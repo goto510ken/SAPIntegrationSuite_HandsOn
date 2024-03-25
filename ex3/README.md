@@ -25,26 +25,43 @@
     
     >Integration Suite へは、URL はhttps://`ご利用のIntegration Suite のアドレス`/shell/home でアクセス出来ます。
     
-
  2. メニューから`Design` → `Integrations and APIs`を選択します。
     
     <img src="images/3-1-2.png" alt="table" width="40%">
 
- 3. 開いたDesign ページの右上にある`Create`ボタンを選択してください。
+ 3. 開いたDesign ページの右上にある`Create`ボタンを押してください。
 
     <img src="images/3-1-3.png" alt="table" width="100%">
 
 
- 5. 
+ 4. Package 作成ページのパラメータに以下のように入力して、`Save`ボタンを押してください。
 
+    |パラメータ|入力項目|
+    |--|--|
+    |Name:|`Integration Suite hands on package for xx` *`xx`については講師から`指定された数字に数字に置き換え`てください。|
+    |Technical Name:|Nameを入力すると自動的に入力されます。`そのまま`にしてください。|
+    |Short Description|`SAP Integration Suite hands on workshop package for xx` *`xx`については講師から`指定された数字に数字に置き換え`てください。|
+   
     <img src="images/3-1-4.png" alt="table" width="100%">
  
- 7.
+ 5. 作成したPackage の画面が開いたら、`Artifacts`タブを選択してください。さらにArtifacts リストの上にある`Add` → `Integration Flow` を選択してください。 
     
     <img src="images/3-1-5.png" alt="table" width="100%">
     
- 8.
+ 6. 開いたポップアップ画面のパラメータに以下のように入力した後に、`Add and Open in Editor`ボタンを押してください。
+
+    |パラメータ|入力項目|
+    |--|--|
+    |ラジオボタン`Create`|チェック *`デフォルト`のまま|
+    |Name:|`Integration Flow for xx` *`xx`については講師から`指定された数字に数字に置き換え`てください。|
+    |ID:|Nameを入力すると自動的に入力されます。`そのまま`にしてください。| 
+    |Runtime Profile:|Cloud Integration *`デフォルト`のまま|
+    
     <img src="images/3-1-6.png" alt="table" width="100%">
+    
+       最終的に、Integration Flow が作成され、Editorが開いた状態になります。
+    
+    <img src="images/3-1-6-1.png" alt="table" width="100%">
     
 </details>
 
