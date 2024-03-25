@@ -24,7 +24,7 @@
     >Integration Suite へは、URL はhttps://`ご利用のIntegration Suite のアドレス`/shell/home でアクセス出来ます。
     
 
- 2. メニューから`Monitor` → `Integrations and APIs`を選択します。
+ 2. メニューから`Monitor` → `Integrations and APIs`を選択してください。。
     
     <img src="images/2-1-2.png" alt="table" width="40%">
 
@@ -37,7 +37,7 @@
     
     <img src="images/2-1-4.png" alt="table" width="100%">
  
- 5. 開いたポップアップ画面のパラメータに以下のように入力して、`Add`ボタンを押してください。
+ 5. 開いたポップアップ画面のパラメータに以下のように入力して、`Add`ボタンを押してください。。
 
     |パラメータ|入力項目|
     |--|--|
