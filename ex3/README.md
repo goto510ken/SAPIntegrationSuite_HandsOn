@@ -30,7 +30,7 @@
     
     <img src="images/3-1-2.png" alt="table" width="40%">
 
- 3. 
+ 3. 開いたDesign ページの右上にある`Create`ボタンを選択してください。
 
     <img src="images/3-1-3.png" alt="table" width="100%">
 
