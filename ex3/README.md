@@ -74,10 +74,11 @@
     <img src="images/3-2-1.png" alt="table" width="100%">
     
 
- 2. メニューから編集メニューにある`Event`の中から`Timer`イベント*を選択して、デフォルトのIntegration Prcess 内の Sart とEnd を結ぶ線にドロップしてください。　* `Timerイベントは一番下にあるので、見つからなら場合は、Event自体をスクロールすると表示されます。`
+ 2. メニューから編集メニューにある`Event`の中から`Timer`イベント*を選択して、Integration Prcess 内の Sart とEnd を結ぶ線上に配置してください。　* `Timerイベントは一番下にあるので、見つからなら場合は、Event自体をスクロールすると表示されます。`
     
-    <img src="images/3-2-2.png" alt="table" width="100%">
-
+    <img src="images/3-2-2.png" alt="table" width="40%">
+    
+     以下、Timer イベントをIntegration Prcess 内の Sart とEnd を結ぶ線上に配置した状態。
     <img src="images/3-2-2-1.png" alt="table" width="100%">
 
  3. Timer イベントを選択したままの状態で、画面右下の`Restore`ボタンを押します。
