@@ -197,7 +197,7 @@
     
     <img src="images/3-4-2.png" alt="table" width="40%">
 
- 3. ### 表示された`Integration Flow for xx`の情報の最後にある`Log Configration`にある`Log Level`を`info`→`Trace`に変更してください。ログレベル変更の確認のポップアップ画面が表示されますので、`Change`ボタンを押してください。その結果としてログレベルが変更された旨のメッセージが表示されます。 
+ 3. ### 表示された`Integration Flow for xx`の情報の最後にある`Log Configration`セクションにある`Log Level`を`info`→`Trace`に変更してください。ログレベル変更の確認のポップアップ画面が表示されますので、`Change`ボタンを押してください。その結果としてログレベルが変更された旨のメッセージが表示されます。 
     
     <img src="images/3-4-3.png" alt="table" width="100%">
     
@@ -243,7 +243,14 @@
      |Runtime Status:|`Started`|
      
      上記のように表示された場合には、iFlow が開始され`トレースが記録された状態`になります。
-
+   
+ 7. ### 再びManage Integration Content 画面のタブに戻り、`Integration Flow for xx`を選択して、 `Artifical Details`セクションにあるリンク`Monitor Message Processing`を押してください。
+   
+    <img src="images/3-4-7.png" alt="table" width="100%">
+    
+ 10. ### その結果として、Monitor Message Processing 画面が表示されます。この画面の左側のプロセスされたメッセージの一覧がリストで表示されます。その中から`Status`が`Completed`になっているもを選択してください。(複数ある場合は、`Completed`になっているエントリーから`一番最新のもの`=一番上のものを選択してください。)
+    
+     <img src="images/3-4-10.png" alt="table" width="100%">
 
 </details>
 
