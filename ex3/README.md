@@ -150,11 +150,11 @@
     |Version:|`デフォルト`のまま|
     |Comment:|`Simplest Integration Flow`|
 
-     <img src="images/3-2-8-1.png" alt="table" width="40%">
+     <img src="images/3-2-8-1.png" alt="table" width="100%">
      
  9. 画面右上にある`Deploy`ボタンを押して、作成したiFlow をディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください
     
-     <img src="images/3-2-9.png" alt="table" width="40%">
+     <img src="images/3-2-9.png" alt="table" width="60%">
      
      表示されたポップアップ画面はそのまま`Yes`ボタンを押してください。その後、Triggered Deployment を表すポップアップ画面が出ますので、`OK`ボタンを押してください。
 
@@ -167,6 +167,9 @@
  10. Editorの空白部分(Integration Process の箱の下あたり。)を選択して、下に`Integration Flow`のプロパティが表示されます。その中にある`Deployment Status`タブを開き、以下のプロパティが、それぞれ指定の状態になっていることを確認してください。　*Deployment には少し時間がかかる場合があります。ステータスが変更されるまで、少しお待ちください。
    
      <img src="images/3-2-10.png" alt="table" width="100%">
+     
+
+     `Integration Flow`のプロパティ画面
      <img src="images/3-2-10-1.png" alt="table" width="100%">
      
      |パラメータ|表示されるべき値|
