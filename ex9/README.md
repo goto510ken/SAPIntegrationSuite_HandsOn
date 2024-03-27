@@ -43,7 +43,7 @@ SAP Integration Suite にはSAPが提供するベストプラクティスとし�
 
  2. ### 開いたページにあるタブから`Documents`を選択してください。３つの関連ドキュメントが参照可能です。
     
-    <img src="images/9-2-2.png" alt="table" width="40%">
+    <img src="images/9-2-2.png" alt="table" width="100%">
 
  3. ### 一番上の`Enterprise Integration Patterns - Postman Collection`をクリックします。結果として、このパッケージ内に含まれるIntegration Flow を実行するためのPOSTMAN のCollection がダウンロードされます。
     
