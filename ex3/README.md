@@ -113,11 +113,12 @@
  6. メニューから編集メニューにある`Transformation`の中から`Content Modifier`イベントを選択して、Integration Prcess 内の `Time Start` とEnd を結ぶ線上に配置してください。
 
     <img src="images/3-2-6.png" alt="table" width="40%">
+    
+    以下、Content Modifier をIntegration Prcess 内の `Timer Sart` とEnd を結ぶ線上に配置した状態。
 
-   以下、Content Modifier をIntegration Prcess 内の `Timer Sart` とEnd を結ぶ線上に配置した状態。
     <img src="images/3-2-6-1.png" alt="table" width="100%">
     
- 7. 画面下部のContent Modifier のプロパティが表示されます。(もしも表示されない場合は、画面右下の`Restore`ボタンを押してプロパティを開いてください。) こちらの`General`タブおよび`Message Body`タブの値を以下のように変更してください。
+ 8. 画面下部のContent Modifier のプロパティが表示されます。(もしも表示されない場合は、画面右下の`Restore`ボタンを押してプロパティを開いてください。) こちらの`General`タブおよび`Message Body`タブの値を以下のように変更してください。
    
     `General`タブ
     |パラメータ|入力項目|
@@ -140,7 +141,7 @@
 
     >Content Modifier のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/define-content-modifier)をご確認ください。
       
- 8. 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
+ 9. 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
    
      <img src="images/3-2-8.png" alt="table" width="60%">
      
@@ -151,7 +152,7 @@
 
      <img src="images/3-2-8-1.png" alt="table" width="40%">
      
- 9. 画面右上にある`Deploy`ボタンを押して、作成したiFlow をディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください。
+ 10. 画面右上にある`Deploy`ボタンを押して、作成したiFlow をディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください。
 
     <img src="images/3-2-9.png" alt="table" width="40%">
     
