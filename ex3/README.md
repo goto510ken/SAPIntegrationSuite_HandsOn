@@ -150,7 +150,7 @@
     |Version:|`デフォルト`のまま|
     |Comment:|`Simplest Integration Flow`|
 
-     <img src="images/3-2-8-1.png" alt="table" width="100%">
+     <img src="images/3-2-8-1.png" alt="table" width="80%">
      
  9. 画面右上にある`Deploy`ボタンを押して、作成したiFlow をディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください
     
