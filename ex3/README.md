@@ -138,18 +138,18 @@
 
     >Content Modifier のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/define-content-modifier)をご確認ください。
       
- 8. `Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
+ 8. 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
    
      <img src="images/3-2-8.png" alt="table" width="100%">
      
     |パラメータ|入力項目|
     |--|--|
     |Version:|`デフォルト`のまま|
-    |Comment:||
+    |Comment:|`Simplest Integration Flow`|
 
      <img src="images/3-2-8-1.png" alt="table" width="100%">
      
- 9. `Deploy`ボタンを押して、作成したiFlow をディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください。
+ 9. 画面右上にある`Deploy`ボタンを押して、作成したiFlow をディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください。
 
     <img src="images/3-2-9.png" alt="table" width="100%">
      
