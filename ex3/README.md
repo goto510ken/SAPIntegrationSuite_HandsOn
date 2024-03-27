@@ -106,7 +106,7 @@
  
  5. `デフォルトのStart` イベントを選択すると、メニューが表示されます。一番下にある`Delete`ボタンを押して、`デフォルトのStart` イベントを削除してください。
 
-       <img src="images/3-2-5.png" alt="table" width="40%">
+       <img src="images/3-2-5.png" alt="table" width="20%">
  
  6. メニューから編集メニューにある`Transformation`の中から`Content Modifier`イベントを選択して、Integration Prcess 内の `Time Start` とEnd を結ぶ線上に配置してください。
 
@@ -151,15 +151,17 @@
      
  9. 画面右上にある`Deploy`ボタンを押して、作成したiFlow をディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください。
 
-    <img src="images/3-2-9.png" alt="table" width="100%">
-     
-   　表示されたポップアップ画面はそのまま`Yes`ボタンを押してください。その後、Triggered Deplyoment を表すポップアップ画面が出ますので、`OK`ボタンを押してください。
-    最初のポップアップ画面 
+    <img src="images/3-2-9.png" alt="table" width="40%">
+    
+    表示されたポップアップ画面はそのまま`Yes`ボタンを押してください。その後、Triggered Deployment を表すポップアップ画面が出ますので、`OK`ボタンを押してください。
+
     <img src="images/3-2-9-1.png" alt="table" width="40%">
-    二番目のポップアップ画面
+    
+    Triggered Deployment を表すポップアップ画面
+
     <img src="images/3-2-9-2.png" alt="table" width="40%">
-     
- 10. Editorの空白部分(Integration Process の箱の下あたり。)を選択して、下に`Integration Flow`のプロパティが表示されます。その中にある`Deployment Status`タブを開き、以下のプロパティが、それぞれ指定の状態になっていることを確認してください。　*Deployment には少し時間がかかる場合があります。ステータスが変更されるまで、少しお待ちください。
+   
+ 11. Editorの空白部分(Integration Process の箱の下あたり。)を選択して、下に`Integration Flow`のプロパティが表示されます。その中にある`Deployment Status`タブを開き、以下のプロパティが、それぞれ指定の状態になっていることを確認してください。　*Deployment には少し時間がかかる場合があります。ステータスが変更されるまで、少しお待ちください。
    
      <img src="images/3-2-10.png" alt="table" width="100%">
      <img src="images/3-2-10-1.png" alt="table" width="100%">
@@ -168,7 +170,8 @@
      |--|--|
      |Deplyoment Status:|`Deployed`|
      |Runtime Status:|`Started`|
-     この状態で作成されたiFlow が開始されました。
+     
+     上記のように表示された場合には、`iFlow が開始された状態`になります。
    
 </details>
 
