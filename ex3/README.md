@@ -102,6 +102,8 @@
     
     <img src="images/3-2-4-1.png" alt="table" width="100%">
 
+    この設定で`iFlow がデプロイされたタイミングで、プロセスが開始`されるようになります。
+
     >Time イベントのその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/define-timer-start-event)をご確認ください。
  
  5. `デフォルトのStart` イベントを選択すると、メニューが表示されます。一番下にある`Delete`ボタンを押して、`デフォルトのStart` イベントを削除してください。
