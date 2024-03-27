@@ -140,7 +140,7 @@
       
  8. 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
    
-     <img src="images/3-2-8.png" alt="table" width="100%">
+     <img src="images/3-2-8.png" alt="table" width="40%">
      
     |パラメータ|入力項目|
     |--|--|
