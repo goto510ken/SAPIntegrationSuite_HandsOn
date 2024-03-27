@@ -118,7 +118,7 @@
 
     <img src="images/3-2-6-1.png" alt="table" width="100%">
     
- 8. 画面下部のContent Modifier のプロパティが表示されます。(もしも表示されない場合は、画面右下の`Restore`ボタンを押してプロパティを開いてください。) こちらの`General`タブおよび`Message Body`タブの値を以下のように変更してください。
+ 7. 画面下部のContent Modifier のプロパティが表示されます。(もしも表示されない場合は、画面右下の`Restore`ボタンを押してプロパティを開いてください。) こちらの`General`タブおよび`Message Body`タブの値を以下のように変更してください。
    
     `General`タブ
     |パラメータ|入力項目|
@@ -141,9 +141,9 @@
 
     >Content Modifier のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/define-content-modifier)をご確認ください。
       
- 9. 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
-   
-     <img src="images/3-2-8.png" alt="table" width="60%">
+ 8. 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
+
+    <img src="images/3-2-8.png" alt="table" width="60%">
      
     |パラメータ|入力項目|
     |--|--|
@@ -152,19 +152,19 @@
 
      <img src="images/3-2-8-1.png" alt="table" width="40%">
      
- 10. 画面右上にある`Deploy`ボタンを押して、作成したiFlow をディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください。
-
-    <img src="images/3-2-9.png" alt="table" width="40%">
+ 9. 画面右上にある`Deploy`ボタンを押して、作成したiFlow をディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください
     
-    表示されたポップアップ画面はそのまま`Yes`ボタンを押してください。その後、Triggered Deployment を表すポップアップ画面が出ますので、`OK`ボタンを押してください。
+     <img src="images/3-2-9.png" alt="table" width="40%">
+     
+     表示されたポップアップ画面はそのまま`Yes`ボタンを押してください。その後、Triggered Deployment を表すポップアップ画面が出ますので、`OK`ボタンを押してください。
 
-    <img src="images/3-2-9-1.png" alt="table" width="40%">
-    
-    Triggered Deployment を表すポップアップ画面
+     <img src="images/3-2-9-1.png" alt="table" width="40%">
+     
+     Triggered Deployment を表すポップアップ画面
 
-    <img src="images/3-2-9-2.png" alt="table" width="40%">
+     <img src="images/3-2-9-2.png" alt="table" width="40%">
    
- 11. Editorの空白部分(Integration Process の箱の下あたり。)を選択して、下に`Integration Flow`のプロパティが表示されます。その中にある`Deployment Status`タブを開き、以下のプロパティが、それぞれ指定の状態になっていることを確認してください。　*Deployment には少し時間がかかる場合があります。ステータスが変更されるまで、少しお待ちください。
+ 10. Editorの空白部分(Integration Process の箱の下あたり。)を選択して、下に`Integration Flow`のプロパティが表示されます。その中にある`Deployment Status`タブを開き、以下のプロパティが、それぞれ指定の状態になっていることを確認してください。　*Deployment には少し時間がかかる場合があります。ステータスが変更されるまで、少しお待ちください。
    
      <img src="images/3-2-10.png" alt="table" width="100%">
      <img src="images/3-2-10-1.png" alt="table" width="100%">
