@@ -115,7 +115,7 @@
    以下、Content Modifier をIntegration Prcess 内の `Timer Sart` とEnd を結ぶ線上に配置した状態。
     <img src="images/3-2-6-1.png" alt="table" width="100%">
     
- 7. 画面下部のContent Modifier のプロパティが表示されます。こちらの`General`タブおよび`Message Body`タブの値を以下のように変更してください。
+ 7. 画面下部のContent Modifier のプロパティが表示されます。(もしも表示されない場合は、画面右下の`Restore`ボタンを押してプロパティを開いてください。) こちらの`General`タブおよび`Message Body`タブの値を以下のように変更してください。
    
     `General`タブ
     |パラメータ|入力項目|
