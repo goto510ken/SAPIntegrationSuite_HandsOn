@@ -187,57 +187,57 @@
 
  1. ### Integration Flow のプロパティの`Deployment Status`タブにある項目`Deployment Status`の横にある`Navigate to Manage Integration Content`のリンクを右クリックして`新しいタブでリンクを開く`を選択して、リンク先を新しいタブで開いてください。*この画面ではiFlow のトレースに利用しますので、`開いたまま`にしてください。
     
-    <img src="images/3-4-1.png" alt="table" width="100%">
+    <img src="images/3-3-1.png" alt="table" width="100%">
     
     >　上記画面はMac版のGoogle Chome のものです。
     
     開かれたManage Integration Content画面
 
-    <img src="images/3-4-1-1.png" alt="table" width="100%">    
+    <img src="images/3-3-1-1.png" alt="table" width="100%">    
 
  2. ### 左のリストから作成した`Integration Flow for xx (`xxについては講師から指定された数字に数字`)を選択してください。
     
-    <img src="images/3-4-2.png" alt="table" width="40%">
+    <img src="images/3-3-2.png" alt="table" width="40%">
 
  3. ### 表示された`Integration Flow for xx`の情報の最後にある`Log Configration`セクションにある`Log Level`を`info`→`Trace`に変更してください。ログレベル変更の確認のポップアップ画面が表示されますので、`Change`ボタンを押してください。その結果としてログレベルが変更された旨のメッセージが表示されます。 
     
-    <img src="images/3-4-3.png" alt="table" width="100%">
+    <img src="images/3-3-3.png" alt="table" width="100%">
     
     `Log Level`の変更
     
-    <img src="images/3-4-3-1.png" alt="table" width="100%">
+    <img src="images/3-3-3-1.png" alt="table" width="100%">
 
     ログレベル変更確認のポップアップ画面
 
-    <img src="images/3-4-3-2.png" alt="table" width="100%">
+    <img src="images/3-3-3-2.png" alt="table" width="100%">
     
     ログレベル変更された旨のメッセージ表示
 
-    <img src="images/3-4-3-3.png" alt="table" width="100%">
+    <img src="images/3-3-3-3.png" alt="table" width="100%">
 
  4. ### Integration FLow のDesigner 画面のタブに戻ります。 (Manage Integration Content 画面のタブはすぐに使いますので、`閉じない`でください。)
     
-    <img src="images/3-4-4.png" alt="table" width="100%">
+    <img src="images/3-3-4.png" alt="table" width="100%">
     
  5. ### (Desginer の) 画面右上にある`Deploy`ボタンを押して、作成したiFlow を再度ディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください
     
-     <img src="images/3-4-5.png" alt="table" width="60%">
+     <img src="images/3-3-5.png" alt="table" width="60%">
      
      表示されたポップアップ画面はそのまま`Yes`ボタンを押してください。その後、Triggered Deployment を表すポップアップ画面が出ますので、`OK`ボタンを押してください。
 
-     <img src="images/3-4-5-1.png" alt="table" width="40%">
+     <img src="images/3-3-5-1.png" alt="table" width="40%">
      
      Triggered Deployment を表すポップアップ画面
 
-     <img src="images/3-4-5-2.png" alt="table" width="40%">
+     <img src="images/3-3-5-2.png" alt="table" width="40%">
    
  6. ### Editorの空白部分(Integration Process の箱の下あたり。)を選択して、下に`Integration Flow`のプロパティが表示されます。その中にある`Deployment Status`タブを開き、以下のプロパティが、それぞれ指定の状態になっていることを確認してください。　*Deployment には少し時間がかかる場合があります。ステータスが変更されるまで、少しお待ちください。
    
-     <img src="images/3-4-6.png" alt="table" width="100%">
+     <img src="images/3-3-6.png" alt="table" width="100%">
      
 
      `Integration Flow`のプロパティ画面
-     <img src="images/3-4-6-1.png" alt="table" width="100%">
+     <img src="images/3-3-6-1.png" alt="table" width="100%">
      
      |パラメータ|表示されるべき値|
      |--|--|
@@ -248,11 +248,11 @@
    
  7. ### 再びManage Integration Content 画面のタブに戻り、`Integration Flow for xx`を選択して、 `Artifical Details`セクションにあるリンク`Monitor Message Processing`を押してください。
    
-    <img src="images/3-4-7.png" alt="table" width="100%">
+    <img src="images/3-3-7.png" alt="table" width="100%">
     
- 10. ### その結果として、Monitor Message Processing 画面が表示されます。この画面の左側のプロセスされたメッセージの一覧がリストで表示されます。その中から`Status`が`Completed`になっているもを選択してください。(複数ある場合は、`Completed`になっているエントリーから`一番最新のもの`=一番上のものを選択してください。)
+ 8. ### その結果として、Monitor Message Processing 画面が表示されます。この画面の左側のプロセスされたメッセージの一覧がリストで表示されます。その中から`Status`が`Completed`になっているもを選択してください。(複数ある場合は、`Completed`になっているエントリーから`一番最新のもの`=一番上のものを選択してください。)
     
-     <img src="images/3-4-10.png" alt="table" width="100%">
+     <img src="images/3-3-8.png" alt="table" width="100%">
 
 </details>
 
