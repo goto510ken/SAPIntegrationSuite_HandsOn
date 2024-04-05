@@ -189,6 +189,8 @@
     
     <img src="images/3-4-1.png" alt="table" width="100%">
     
+    >　上記画面はMac版のGoogle Chome のものです。
+    
     開かれたManage Integration Content画面
 
     <img src="images/3-4-1-1.png" alt="table" width="100%">    
