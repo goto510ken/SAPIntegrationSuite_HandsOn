@@ -254,23 +254,23 @@
 
      <img src="images/3-3-10.png" alt="table" width="100%">
      
- 11. ### iFlow の図の上にある`Log Content`を選択してください。(デフォルト状態では、)メッセージの`Properties`の状態が表示されます。(こちらは`End Event` の持つ基本情報です。)
+ 11. ### iFlow の図の上にある`Log Content`を選択してください。さらに`Properties`を選択してください。`Properties`の状態が表示されます。(こちらでは`End Event` の持つ基本情報です。)
 
      <img src="images/3-3-11.png" alt="table" width="100%">
      
- 12. ### `Activities`(`Properties`の右横)を選択してください。メッセージの`Activites`の状態が表示されます。(こちらは`End Event`で実行された内容が確認できます。)
+ 12. ### `Activities`(`Properties`の右横)を選択してください。`Activites`の状態が表示されます。(こちらでは`End Event`で実行された内容が確認できます。)
 
      <img src="images/3-3-12.png" alt="table" width="100%">
      
- 13. ### 次に`Message Content`(`Log COntent`の右横)を選択してください。(デフォルトの状態では、)End Event 時点でのMessage の`Header` 情報が表示されます。
+ 13. ### 次に`Message Content`(`Log COntent`の右横)を選択してください。さらに`Header`を選択してください。(こちらではEnd Event 時点でのMessage の`Header` 情報が表示されます。)
 
      <img src="images/3-3-13.png" alt="table" width="100%">
      
- 14. ### `Exchange Properties`(`Header`の右横)を選択してください。`End Event` 時点での`Exchange Properties` が表示されます。
+ 16. ### `Exchange Properties`(`Header`の右横)を選択してください。`End Event` 時点での`Exchange Properties` が表示されます。
      
      <img src="images/3-3-14.png" alt="table" width="100%">
      
- 15. ### `Payload`(`Exchange Properties`の右横)を選択してください。`End Event` 時点での`Payload` ( = Message のBody)が表示されます。これでダミーで設定したCSVファイルの内容が、正しくセットされていることが確認できました。
+ 17. ### `Payload`(`Exchange Properties`の右横)を選択してください。`End Event` 時点での`Payload` ( = Message のBody)が表示されます。これでダミーで設定したCSVファイルの内容が、正しくセットされていることが確認できました。
 
      <img src="images/3-3-15.png" alt="table" width="100%">
      
