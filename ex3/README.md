@@ -243,10 +243,42 @@
     <img src="images/3-3-7.png" alt="table" width="100%">
     
  8. ### その結果として、Monitor Message Processing 画面が表示されます。この画面の左側のプロセスされたメッセージの一覧がリストで表示されます。その中から`Status`が`Completed`になっているもを選択してください。(複数ある場合は、`Completed`になっているエントリーから`一番最新のもの`=一番上のものを選択してください。)
-    
+   
      <img src="images/3-3-8.png" alt="table" width="100%">
 
+ 9. ###  表示された`Integration Flow for xx`の情報の三番目にある`Log`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
+    
+     <img src="images/3-3-9.png" alt="table" width="100%">
+
+ 10. ### 結果としてMessage のプロセス情報を示すMessage Processing Run 画面が表示されます。
+
+     <img src="images/3-3-10.png" alt="table" width="100%">
+     
+ 11. ### ここからトレース内容を確認ます。左のリストにある`End`を洗濯してください。これにより右にあるiFlow の図にあるEnd Event が強調表示されます。(これにより`End Event` が実行された直後のトレース情報を確認することができます。)
+
+     <img src="images/3-3-11.png" alt="table" width="100%">
+     
+ 12. ### iFlow の図の上にある`Log Content`を選択してください。(デフォルト状態では、)メッセージの`Properties`の状態が表示されます。(こちらは`End Event` の持つ基本情報です。)
+
+     <img src="images/3-3-12.png" alt="table" width="100%">
+     
+ 13. ### `Activities`(`Properties`の右横)を選択してください。メッセージの`Activites`の状態が表示されます。(こちらは`End Event`で実行された内容が確認できます。)
+
+     <img src="images/3-3-13.png" alt="table" width="100%">
+     
+ 14. ### 次に`Message Content`(`Log COntent`の右横)を選択してください。(デフォルトの状態では、)End Event 時点でのMessage の`Header` 情報が表示されます。
+
+     <img src="images/3-3-14.png" alt="table" width="100%">
+     
+ 15. ### `Exchange Properties`(`Header`の右横)を選択してください。`End Event` 時点での`Exchange Properties` が表示されます。
+     
+     <img src="images/3-3-15.png" alt="table" width="100%">
+     
+ 16. ### `Payload`(`Exchange Properties`の右横)を選択してください。`End Event` 時点での`Payload` (= Message のBody)が表示されます。これでダミーで設定したCSVファイルの内容が、正しくセットされていることが確認できました。
+
+     <img src="images/3-3-16.png" alt="table" width="100%">
+     
 </details>
 
 ## まとめ
-本演習では、最単純なiFlow を作成することで、フローを作成する際に必要な手順を理解することが出来ます。
+本演習では、最単純なiFlow を作成することで、フローを作成する際に必要な手順を理解することが出来ます。またiFlow をトレースすることでステップごとのMessage の中身を確認することが出来ます。これによってデバックしながらiFlowを調整することが出来ます。Messageに関してはこちらの[SAP Help]() をご確認ください。
