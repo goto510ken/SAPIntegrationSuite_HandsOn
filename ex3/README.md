@@ -274,11 +274,11 @@
      
      <img src="images/3-3-15.png" alt="table" width="100%">
      
- 16. ### `Payload`(`Exchange Properties`の右横)を選択してください。`End Event` 時点での`Payload` (= Message のBody)が表示されます。これでダミーで設定したCSVファイルの内容が、正しくセットされていることが確認できました。
+ 16. ### `Payload`(`Exchange Properties`の右横)を選択してください。`End Event` 時点での`Payload` ( = Message のBody)が表示されます。これでダミーで設定したCSVファイルの内容が、正しくセットされていることが確認できました。
 
      <img src="images/3-3-16.png" alt="table" width="100%">
      
 </details>
 
 ## まとめ
-本演習では、最単純なiFlow を作成することで、フローを作成する際に必要な手順を理解することが出来ます。またiFlow をトレースすることでステップごとのMessage の中身を確認することが出来ます。これによってデバックしながらiFlowを調整することが出来ます。Messageに関してはこちらの[SAP Help]() をご確認ください。
+本演習では、最単純なiFlow を作成することで、フローを作成する際に必要な手順を理解することが出来ます。またiFlow をトレースすることでステップごとのMessage の中身を確認することが出来ます。これによってデバックしながらiFlowを調整することが出来ます。Messageに関してはSAP Help の[こちら](https://help.sap.com/docs/integration-suite/sap-integration-suite/camel-data-model-in-nutshell?locale=en-US)をご確認ください。
