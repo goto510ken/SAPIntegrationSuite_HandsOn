@@ -201,7 +201,7 @@
 
     ログレベル変更確認のポップアップ画面
 
-    <img src="images/3-3-3-1.png" alt="table" width="100%">
+    <img src="images/3-3-3-1.png" alt="table" width="40%">
     
     ログレベル変更された旨のメッセージ表示
 
