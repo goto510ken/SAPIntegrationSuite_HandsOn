@@ -1,7 +1,7 @@
 # 演習2: SAP Integration Suiteでの SFTPサーバーの設定
 
 ## 目的
-本ワークショップではクラウド環境でのファイル連携の方法としてSFTP サーバーを利用します。本演習では以下の内容を実施します。
+本演習ではクラウド環境でのファイル連携の方法としてSFTP サーバーを利用します。具体的には以下の内容を実施します。
 1. SAP Integration Suite の Keystore へのSSH証明書の登録
 2. 登録したKeystore を用いたSFTPサーバーへの接続テスト
 3. Know.host へのSFTPサーバーの登録およびSAP Integration Suiteへのアップロードおよび再度の接続テスト 
