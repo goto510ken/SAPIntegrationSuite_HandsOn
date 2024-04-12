@@ -86,7 +86,7 @@
     
     <img src="images/3-2-3.png" alt="table" width="100%">
 
- 4. ### 画面下部に表示されたTimer イベントのプロパティが表示されます。こちらの`General`タブおよび`Scheduler`タブの値を以下のように変更してください。
+ 4. ### 画面下部に表示されたTimer イベントのプロパティが表示されます。こちらの`General`タブおよび`Scheduler`タブの値を以下のように設定してください。
 
     `General`タブ
     |パラメータ|入力項目|
@@ -118,7 +118,7 @@
 
     <img src="images/3-2-6-1.png" alt="table" width="100%">
     
- 7. ### 画面下部のContent Modifier のプロパティが表示されます。(もしも表示されない場合は、画面右下の`Restore`ボタンを押してプロパティを開いてください。) こちらの`General`タブおよび`Message Body`タブの値を以下のように変更してください。
+ 7. ### 画面下部のContent Modifier のプロパティが表示されます。(もしも表示されない場合は、画面右下の`Restore`ボタンを押してプロパティを開いてください。) こちらの`General`タブおよび`Message Body`タブの値を以下のように設定してください。
    
     `General`タブ
     |パラメータ|入力項目|
