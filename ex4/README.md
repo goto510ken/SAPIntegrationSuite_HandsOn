@@ -39,7 +39,7 @@
 
    <img src="images/4-1-4.png" alt="table" width="100%">
 
-4. ### 画面かぶに表示された`CSV to XML Converter`のプロパティが表示されます。こちらの`General` タブおよび`Processing` タブの値を以下のように設定してください。
+4. ### 画面下部に表示された`CSV to XML Converter`のプロパティが表示されます。こちらの`General` タブおよび`Processing` タブの値を以下のように設定してください。
 
     `General`タブ
     |パラメータ|入力項目|
