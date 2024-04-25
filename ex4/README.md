@@ -126,16 +126,16 @@
    <img src="images/4-2-9-1.png" alt="table" width="100%">
 
 10. ### 左側のStructure の`Product`を選択して、`矢印のついたアイコン`から線をひっぱり出して、右側のStructure の`ProductSet`の下にある`Product`まで引っ張ってください。
-
-   <img src="images/4-2-10.png" alt="table" width="100%"> 
-
+   
+    <img src="images/4-2-10.png" alt="table" width="100%"> 
+    
 11. ### 右上の２段目にある右から２つ目のアイコン(`Ab`と表記されているアイコン)を押してくだいさい。結果として、左右のStructure にある同じ名前のそれぞれの項目が自動的にマッピングされます。
-
-   <img src="images/4-2-11.png" alt="table" width="100%"> 
-
-12. 左右のStructure で項目名が異なるが、同じ項目は１つ１つ手動でマッピングできます。ここでは左側のStructure の`ProductIdentifier`と右側のStructureの`ProductID`をマッピングします。まず左側のStructure の`ProductIdentifier`を選択して、`矢印のついたアイコン`から線をひっぱり出して、右側のStructure の`ProductID`まで引っ張ってください。
-
-   <img src="images/4-2-12.png" alt="table" width="100%"> 
+   
+    <img src="images/4-2-11.png" alt="table" width="100%">
+    
+12. ### 左右のStructure で項目名が異なるが、同じ項目は１つ１つ手動でマッピングできます。ここでは左側のStructure の`ProductIdentifier`と右側のStructureの`ProductID`をマッピングします。まず左側のStructure の`ProductIdentifier`を選択して、`矢印のついたアイコン`から線をひっぱり出して、右側のStructure の`ProductID`まで引っ張ってください。
+   
+    <img src="images/4-2-12.png" alt="table" width="100%"> 
     
 
 </details>
