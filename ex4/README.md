@@ -29,7 +29,7 @@
 
 2. ### メニューから編集メニューにある`Message Transformers`の中から`Converter`→`CSV to XML Converter`を選択して、Integration Prcess 内の `Set Dummy Data` とEnd を結ぶ線上に配置してください。
 
-   <img src="images/4-1-2.png" alt="table" width="100%">
+   <img src="images/4-1-2.png" alt="table" width="40%">
 
    以下、`CSV to XML Converter`を選択して、Integration Prcess 内の `Set Dummy Data` とEnd を結ぶ線上に配置した状態
    
@@ -64,7 +64,7 @@
       
 5. ### 画面右上にある`Save`ボタンを押して、作成してものを保存してください。
 
-   <img src="images/4-1-5.png" alt="table" width="100%">
+   <img src="images/4-1-5.png" alt="table" width="40%">
 
 </details>
 
