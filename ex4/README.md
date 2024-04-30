@@ -159,7 +159,7 @@
 
       以下、シミュレーションが完了した状態。
 
-      <img src="images/4-2-14-1.png" alt="table" width="100%"> 
+      <img src="images/4-2-15-1.png" alt="table" width="100%"> 
 
       >確認するポイントは以下の通りです。
       >1. Test Output の項目`Product ID`に正しく`HT-1000`が格納されていること。
