@@ -166,36 +166,25 @@
       >2. それ以外の項目に関しては、Test Input にある同じ項目名の値が正しく格納されていること。
     
 16. ### 左下にある`Close`ボタンを押して、シミュレーションのポップアップ画面を押して画面を終了させてください。
-
-   <img src="images/4-2-16.png" alt="table" width="100%">
+   
+    <img src="images/4-2-16.png" alt="table" width="100%">
 
 17. ### `xsd_mapping_xx`(*xxについては講師から指定された数字に数字に置き換えてください。)画面の右上にある`OK`ボタンを押して、終了をさせてください。
-
-   <img src="images/4-2-17.png" alt="table" width="100%">
-
+   
+    <img src="images/4-2-17.png" alt="table" width="100%">
 
 18.  ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
 
-    <img src="images/3-2-8.png" alt="table" width="60%">
-     
-    |パラメータ|入力項目|
-    |--|--|
-    |Version:|`デフォルト`のまま|
-    |Comment:|`Simplest Integration Flow`|
 
+     <img src="images/3-2-8.png" alt="table" width="60%">
+     
+     |パラメータ|入力項目|
+     |--|--|
+     |Version:|`デフォルト`のまま|
+     |Comment:|`Simplest Integration Flow`|
+     
      <img src="images/3-2-8-1.png" alt="table" width="80%">
      
-19. ### 画面右上にある`Deploy`ボタンを押して、作成したiFlow をディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください
-    
-     <img src="images/3-2-19.png" alt="table" width="60%">
-     
-     表示されたポップアップ画面はそのまま`Yes`ボタンを押してください。その後、Triggered Deployment を表すポップアップ画面が出ますので、`OK`ボタンを押してください。
-
-     <img src="images/3-2-19-1.png" alt="table" width="40%">
-     
-     Triggered Deployment を表すポップアップ画面
-
-     <img src="images/3-2-19-2.png" alt="table" width="40%">
    
 </details>
 
