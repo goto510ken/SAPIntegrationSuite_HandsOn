@@ -145,7 +145,7 @@
 
       <img src="images/4-2-13-1.png" alt="table" width="100%"> 
 
-14. ### 左上にある`Test Input`の項目に右にある`Browse`ボタンを押して`Product.xml`をアップロードしてください。結果としてサンプルの`Product`データが受信データとして取り込まれます。
+14. ### 左上にある`Test Input`の項目に右にある`Browse`ボタンを押してファイル`Product.xml`をアップロードしてください。結果としてサンプルの`Product`データが受信データとして取り込まれます。
 
        <img src="images/4-2-14.png" alt="table" width="100%">
 
