@@ -74,7 +74,7 @@
 
 1. ### メニューから編集メニューにある`Mapping` の中から`Message Mapping`を選択してIntegration Process内の `CSV to XML Converter` とEnd を結ぶ線上に配置してください。 
 
-   <img src="images/4-2-1.png" alt="table" width="100%">
+   <img src="images/4-2-1.png" alt="table" width="40%">
    
    以下、`Message Mapping`を選択して、Integration Prcess 内の `CSV to XML Converter` とEnd を結ぶ線上に配置した状態
    
@@ -95,7 +95,7 @@
 
 4. ### Integration Process 内の`Messasge Mapping`を選択してメニューから`Create`を選択してください。
 
-   <img src="images/4-2-4.png" alt="table" width="100%"> 
+   <img src="images/4-2-4.png" alt="table" width="40%"> 
 
 5. ### 開いたポップアップ画面`Create Message Mapping`でNameを`xsd_mapping_xx`と入力して`Create`ボタンを押してください。(*xxについては講師から指定された数字に数字に置き換えてください。)
 
@@ -107,19 +107,19 @@
    
 7. ### 開いたポップアップ画面`Select Source Message`の左下にある`Upload from File System`ボタンを押して、`Product_sender.xsd`をアップロードしてください。結果として受信側のデータ構造がXML形式(CSV形式をステップ1でXML形式に変更したデータ構造に対応)で取り込まれます。これによってXML形式に変換されたデータを取り込みます。
 
-   <img src="images/4-2-7.png" alt="table" width="100%">
+   <img src="images/4-2-7.png" alt="table" width="40%">
 
    以下、受信側のデータ構造がXML形式で取り込まれた状態。
 
    <img src="images/4-2-7-1.png" alt="table" width="100%">
 
-8. 左右に表示されたStructure のうち`右側の`Structureの上にある`Add source message`ボタンを押してください。
+8. ### 左右に表示されたStructure のうち`右側の`Structureの上にある`Add source message`ボタンを押してください。
 
    <img src="images/4-2-8.png" alt="table" width="100%">
    
 9. ### 開いたポップアップ画面`Select Source Message`の左下にある`Upload from File System`ボタンを押して、`ProductSet_receiver.xsd`をアップロードしてください。結果として送信側のデータ構造がXML形式で取り込まれます。これによってXML形式でデータを出力することができます。
 
-   <img src="images/4-2-9.png" alt="table" width="100%">
+   <img src="images/4-2-9.png" alt="table" width="40%">
 
    以下、受信側のデータ構造がXML形式で取り込まれた状態。
 
@@ -139,7 +139,7 @@
 
 13. ### 右上にある`Simulate`ボタンを押してください。結果としてSimulate 用のポップアップ画面が開きます。
 
-      <img src="images/4-2-13.png" alt="table" width="100%">
+      <img src="images/4-2-13.png" alt="table" width="40%">
 
       以下、ポップアップ画面が開いた状態
 
@@ -155,7 +155,7 @@
 
 15. ### 右下にある`Test`ボタンを押して、シミュレーションを実行してください。(少し時間が経過したのちに)右側にある`Test Output`にマッピング結果が表示されます。こちらが以下のように正しく表示されているかどうか確認してください。
 
-    　<img src="images/4-2-15.png" alt="table" width="100%">
+    　<img src="images/4-2-15.png" alt="table" width="40%">
 
       以下、シミュレーションが完了した状態。
 
@@ -167,11 +167,11 @@
     
 16. ### 右下にある`Close`ボタンを押して、シミュレーションのポップアップ画面を押して画面を終了させてください。
    
-    <img src="images/4-2-16.png" alt="table" width="100%">
+    <img src="images/4-2-16.png" alt="table" width="40%">
 
 17. ### `xsd_mapping_xx`(*xxについては講師から指定された数字に数字に置き換えてください。)画面の右上にある`OK`ボタンを押して、終了をさせてください。
    
-    <img src="images/4-2-17.png" alt="table" width="100%">
+    <img src="images/4-2-17.png" alt="table" width="40%">
 
 18.  ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
 
