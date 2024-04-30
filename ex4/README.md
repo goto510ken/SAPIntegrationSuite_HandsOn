@@ -101,7 +101,7 @@
 
    <img src="images/4-2-5.png" alt="table" width="100%"> 
 
-6. ### 結果として表示された`xsd_mapping_xx`(*xxについては講師から指定された数字に数字に置き換えてください。)左右に表示されたStructure のうち`左側の`Structureの上にある`Add source message`ボタンを押してください。
+6. ### 結果として表示された`xsd_mapping_xx`(*xxについては講師から指定された数字に数字に置き換えてください。)画面の左右に表示されたStructure のうち`左側の`Structureの上にある`Add source message`ボタンを押してください。
 
    <img src="images/4-2-6.png" alt="table" width="100%">
    
@@ -136,11 +136,71 @@
 12. ### 左右のStructure で項目名が異なるが、同じ項目は１つ１つ手動でマッピングできます。ここでは左側のStructure の`ProductIdentifier`と右側のStructureの`ProductID`をマッピングします。まず左側のStructure の`ProductIdentifier`を選択して、`矢印のついたアイコン`から線をひっぱり出して、右側のStructure の`ProductID`まで引っ張ってください。
    
     <img src="images/4-2-12.png" alt="table" width="100%"> 
-    
 
+13. ### 右上にある`Simulate`ボタンを押してください。結果としてSimulate 用のポップアップ画面が開きます。
+
+      <img src="images/4-2-13.png" alt="table" width="100%">
+
+      以下、ポップアップ画面が開いた状態
+
+      <img src="images/4-2-13-1.png" alt="table" width="100%"> 
+
+14. ### 左上にある`Test Input`の項目に右にある`Browse`ボタンを押して`Product.xml`をアップロードしてください。結果としてサンプルの`Product`データが受信データとして取り込まれます。
+
+       <img src="images/4-2-14.png" alt="table" width="100%">
+
+      以下、受信側のサンプルデータが取り込まれた状態。
+
+      <img src="images/4-2-14-1.png" alt="table" width="100%"> 
+
+15. ### 左下にある`Test`ボタンを押して、シミュレーションを実行してください。(少し時間が経過したのちに)右側にある`Test Output`にマッピング結果が表示されます。こちらが以下のように正しく表示されているかどうか確認してください。
+
+    　<img src="images/4-2-15.png" alt="table" width="100%">
+
+      以下、シミュレーションが完了した状態。
+
+      <img src="images/4-2-14-1.png" alt="table" width="100%"> 
+
+      >確認するポイントは以下の通りです。
+      >1. Test Output の項目`Product ID`に正しく`HT-1000`が格納されていること。
+      >2. それ以外の項目に関しては、Test Input にある同じ項目名の値が正しく格納されていること。
+    
+16. ### 左下にある`Close`ボタンを押して、シミュレーションのポップアップ画面を押して画面を終了させてください。
+
+   <img src="images/4-2-16.png" alt="table" width="100%">
+
+17. ### `xsd_mapping_xx`(*xxについては講師から指定された数字に数字に置き換えてください。)画面の右上にある`OK`ボタンを押して、終了をさせてください。
+
+   <img src="images/4-2-17.png" alt="table" width="100%">
+
+
+18.  ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
+
+    <img src="images/3-2-8.png" alt="table" width="60%">
+     
+    |パラメータ|入力項目|
+    |--|--|
+    |Version:|`デフォルト`のまま|
+    |Comment:|`Simplest Integration Flow`|
+
+     <img src="images/3-2-8-1.png" alt="table" width="80%">
+     
+19. ### 画面右上にある`Deploy`ボタンを押して、作成したiFlow をディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください
+    
+     <img src="images/3-2-19.png" alt="table" width="60%">
+     
+     表示されたポップアップ画面はそのまま`Yes`ボタンを押してください。その後、Triggered Deployment を表すポップアップ画面が出ますので、`OK`ボタンを押してください。
+
+     <img src="images/3-2-19-1.png" alt="table" width="40%">
+     
+     Triggered Deployment を表すポップアップ画面
+
+     <img src="images/3-2-19-2.png" alt="table" width="40%">
+   
 </details>
 
 
 
 
-
+## まとめ
+本演習では、Integration Suite の持つ機能を用いてプロセス上必要なデータのフォーマットをCSVからXMLに変換したり、マッピング機能を用いて異なるストラクチャ構造の項目にマッピングする方法を理解することができます。
