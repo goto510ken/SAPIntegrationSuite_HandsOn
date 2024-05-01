@@ -99,7 +99,7 @@
 
 5. ### 開いたポップアップ画面`Create Message Mapping`でNameを`xsd_mapping_xx`と入力して`Create`ボタンを押してください。(*xxについては講師から指定された数字に数字に置き換えてください。)
 
-   <img src="images/4-2-5.png" alt="table" width="100%"> 
+   <img src="images/4-2-5.png" alt="table" width="40%"> 
 
 6. ### 結果として表示された`xsd_mapping_xx`(*xxについては講師から指定された数字に数字に置き換えてください。)画面の左右に表示されたStructure のうち`左側の`Structureの上にある`Add source message`ボタンを押してください。
 
