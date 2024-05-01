@@ -8,7 +8,6 @@
 
 <img src="images/9-intro.png" alt="table" width="100%">
 
->Integration Flow Design Guidelne: SOPA→iDoc 連携のプロセスを確実に一度実施するフロー(Sender がリトライに未対応の場合)
 
 
 ## 手順
