@@ -37,7 +37,7 @@
 
    <img src="images/5-1-2-1.png" alt="table" width="100%">
    
-3. ### ### (もしもプロパティパネルが隠れている場合は)`Content Modifier`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
+3. ### (もしもプロパティパネルが隠れている場合は)`Content Modifier`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
 
    <img src="images/5-1-3.png" alt="table" width="100%">
 
@@ -62,6 +62,12 @@
     <img src="images/5-1-4-1.png" alt="table" width="100%">
 
     >Content Modifier のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/define-content-modifier)をご確認ください。
+
+5. ### 画面右上にある`Save`ボタンを押して作成してものを保存してください。
+  
+   <img src="images/5-1-5.png" alt="table" width="100%">
+
+   
       
 
 </details>
