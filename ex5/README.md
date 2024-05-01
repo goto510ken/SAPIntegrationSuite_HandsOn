@@ -3,7 +3,7 @@
 ## 目的
 本演習ではiFlow からS/4HANAシステムを呼出して製品データを取得します。このS/4HANAの呼出しは、S/4HANAの持つさまざまなインターフェースを利用することが出来ますが、今回の演習ではOdata方式のWwebサービス(SAP Integration SuiteでAPIとして事前設定済み)を利用します。具体的には以下の内容を実施します。
 1. Content Modifier を用いてPayload 内のProduct IDを取得してExchange Property として設定
-2. S/4HANAを呼び出す(ODataサービスのケース)を呼び出す設定
+2. S/4HANA(ODataサービスを利用)を呼び出す設定
 3. iFlow をトレース(デバック)付き実行して、プロセス終了時のMessage内のPayload にS/4HANAから取得した製品データが格納されていることを確認
 
 <img src="images/5-Intro.png" alt="table" width="100%">
@@ -67,8 +67,11 @@
   
    <img src="images/5-1-5.png" alt="table" width="100%">
 
-   
-      
+</details>
+
+## ステップ2: S/4HANA(ODataサービスを利用)を呼び出す設定
+<details>
+<summary>内容を開く</summary>
 
 </details>
 
