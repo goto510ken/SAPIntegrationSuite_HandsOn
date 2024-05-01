@@ -31,7 +31,7 @@
 
    <img src="images/4-1-2.png" alt="table" width="40%">
 
-   以下、`CSV to XML Converter`を選択して、Integration Prcess 内の `Set Dummy Data` とEnd を結ぶ線上に配置した状態
+   以下、`CSV to XML Converter`を選択して、Integration Process 内の `Set Dummy Data` とEnd を結ぶ線上に配置した状態
    
    <img src="images/4-1-2-1.png" alt="table" width="100%">
 
@@ -76,7 +76,7 @@
 
    <img src="images/4-2-1.png" alt="table" width="40%">
    
-   以下、`Message Mapping`を選択して、Integration Prcess 内の `CSV to XML Converter` とEnd を結ぶ線上に配置した状態
+   以下、`Message Mapping`を選択して、Integration Process 内の `CSV to XML Converter` とEnd を結ぶ線上に配置した状態
    
    <img src="images/4-2-1-1.png" alt="table" width="100%">
 
