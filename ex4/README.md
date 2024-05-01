@@ -80,7 +80,7 @@
    
    <img src="images/4-2-1-1.png" alt="table" width="100%">
 
-2. ### もしもプロパティパネルが隠れている場合は)`Message Mapping`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
+2. ### (もしもプロパティパネルが隠れている場合は)`Message Mapping`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
 
    <img src="images/4-2-2.png" alt="table" width="100%">
 
