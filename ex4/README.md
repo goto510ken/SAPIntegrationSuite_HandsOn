@@ -105,7 +105,7 @@
 
    <img src="images/4-2-6.png" alt="table" width="100%">
    
-7. ### 開いたポップアップ画面`Select Source Message`の左下にある`Upload from File System`ボタンを押して、[`Product_sender.xsd`](ex4/sources/Product_sender.xsd)をアップロードしてください。結果として受信側のデータ構造がXML形式(CSV形式をステップ1でXML形式に変更したデータ構造に対応)で取り込まれます。これによってXML形式に変換されたデータを取り込みます。
+7. ### 開いたポップアップ画面`Select Source Message`の左下にある`Upload from File System`ボタンを押して、[`Product_sender.xsd`](sources/Product_sender.xsd)をアップロードしてください。結果として受信側のデータ構造がXML形式(CSV形式をステップ1でXML形式に変更したデータ構造に対応)で取り込まれます。これによってXML形式に変換されたデータを取り込みます。
 
    <img src="images/4-2-7.png" alt="table" width="40%">
 
@@ -117,7 +117,7 @@
 
    <img src="images/4-2-8.png" alt="table" width="100%">
    
-9. ### 開いたポップアップ画面`Select Source Message`の左下にある`Upload from File System`ボタンを押して、[`ProductSet_receiver.xsd`](ex4/sources/ProductSet_receiver.xsd)をアップロードしてください。結果として送信側のデータ構造がXML形式で取り込まれます。これによってXML形式でデータを出力することができます。
+9. ### 開いたポップアップ画面`Select Source Message`の左下にある`Upload from File System`ボタンを押して、[`ProductSet_receiver.xsd`](sources/ProductSet_receiver.xsd)をアップロードしてください。結果として送信側のデータ構造がXML形式で取り込まれます。これによってXML形式でデータを出力することができます。
 
    <img src="images/4-2-9.png" alt="table" width="40%">
 
@@ -145,7 +145,7 @@
 
       <img src="images/4-2-13-1.png" alt="table" width="100%"> 
 
-14. ### 左上にある`Test Input`の項目に右にある`Browse`ボタンを押してファイル[`Product.xml`](ex4/sources/Product.xml)をアップロードしてください。結果としてサンプルの`Product`データが受信データとして取り込まれます。
+14. ### 左上にある`Test Input`の項目に右にある`Browse`ボタンを押してファイル[`Product.xml`](sources/Product.xml)をアップロードしてください。結果としてサンプルの`Product`データが受信データとして取り込まれます。
 
        <img src="images/4-2-14.png" alt="table" width="100%">
 
