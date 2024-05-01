@@ -1,7 +1,7 @@
 # 演習5: ODataアダプターを用いたSAPシステムへの連携
 
 ## 目的
-本演習ではiFlow からS/4HANAシステムを呼出して製品データを取得します。このS/4HANAの呼出しは、S/4HANAの持つさまざまなインターフェースを利用することが出来ますが、今回の演習ではOdata方式のWwebサービス(SAP Integration SuiteでAPIとして事前設定済み)を利用します。具体的には以下の内容を実施します。
+本演習ではiFlow からS/4HANAシステムを呼出して製品データを取得します。このS/4HANAの呼出しは、さまざまな種類のインターフェースを利用することが出来ますが、今回の演習ではOData方式のWwebサービス(SAP Integration SuiteでAPIとして事前設定済み)を利用します。具体的には以下の内容を実施します。
 1. Content Modifier を用いてPayload 内のProduct IDを取得してExchange Property として設定
 2. S/4HANA(ODataサービスを利用)を呼び出す設定
 3. iFlow をトレース(デバック)付き実行して、プロセス終了時のMessage内のPayload にS/4HANAから取得した製品データが格納されていることを確認
@@ -29,7 +29,7 @@
   
    <img src="images/5-1-1.png" alt="table" width="100%">
 
-2. ### メニューから`Message Transformers`の中から`Content Modifier`を選択して、Integration Flow 内の`Message Mapping`とEnd を結ぶ線上に配置してください。
+2. ### メニューにある`Message Transformers`の中から`Content Modifier`を選択して、Integration Flow 内の`Message Mapping`とEnd を結ぶ線上に配置してください。
   
    <img src="images/5-1-2.png" alt="table" width="100%">
 
@@ -72,6 +72,44 @@
 ## ステップ2: S/4HANA(ODataサービスを利用)を呼び出す設定
 <details>
 <summary>内容を開く</summary>
+
+1. ### メニューにある`Call`の中にある`Extranal Call` → `Request Reply`を選択してIntegration Process内の`add Exchange Property "ProductID"`とEnd を結ぶ線上に配置してください。
+  
+   <img src="images/5-2-1.png" alt="table" width="100%">
+
+   以下、`Request Reply`を選択して、Integration Process 内の`add Exchange Property "ProductID"`とEnd を結ぶ線上に配置した状態
+
+   <img src="images/5-2-1-1.png" alt="table" width="100%">
+
+2. ### (もしもプロパティパネルが隠れている場合は)`Request Reply`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
+   
+   <img src="images/5-2-2.png" alt="table" width="100%">
+
+3. ### 画面下部に表示された`Request Reply`のプロパティが表示されます。こちらの`General` タブおよび`Processing` タブの値を以下のように設定してください。
+
+    `General`タブ
+    |パラメータ|入力項目|
+    |--|--|
+    |Name:|`call S/4HANA System with SOAP API`|
+
+     <img src="images/5-2-3.png" alt="table" width="100%">   
+
+4. ### メニューにある`Participant`の中にある`Receiver`を選択して`call S/4HANA System with SOAP API`の真下あたりに配置してください。
+  
+   <img src="images/5-2-4.png" alt="table" width="100%">
+
+5. ### (もしもプロパティパネルが隠れている場合は)`Receiver`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
+   
+   <img src="images/5-2-5.png" alt="table" width="100%">
+
+6. ### 画面下部に表示された`Receiver`のプロパティが表示されます。こちらの`General` タブの値を以下のように設定してください。
+
+    `General`タブ
+    |パラメータ|入力項目|
+    |--|--|
+    |Name:|`S4HANA_System` * 空白は不可|
+
+     <img src="images/5-2-6.png" alt="table" width="100%">  
 
 </details>
 
