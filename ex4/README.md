@@ -27,7 +27,7 @@
 
    <img src="images/4-1-1.png" alt="table" width="100%">
 
-2. ### メニューから`Message Transformers`の中から`Converter`→`CSV to XML Converter`を選択して、Integration Prcess 内の `Set Dummy Data` とEnd を結ぶ線上に配置してください。
+2. ### メニューにある`Message Transformers`の中から`Converter`→`CSV to XML Converter`を選択して、Integration Prcess 内の `Set Dummy Data` とEnd を結ぶ線上に配置してください。
 
    <img src="images/4-1-2.png" alt="table" width="40%">
 
@@ -72,7 +72,7 @@
 <details>
 <summary>内容を開く</summary>   
 
-1. ### メニューから編集メニューにある`Mapping` の中から`Message Mapping`を選択してIntegration Process内の `CSV to XML Converter` とEnd を結ぶ線上に配置してください。 
+1. ### メニューにある`Mapping` の中から`Message Mapping`を選択してIntegration Process内の `CSV to XML Converter` とEnd を結ぶ線上に配置してください。 
 
    <img src="images/4-2-1.png" alt="table" width="40%">
    
@@ -185,7 +185,7 @@
    
 </details>
 
-## ステップ3:  iFlow を実行して、トレース(デバック)してプロセス終了時のMessage内のPayload がXML形式で格納されていることを確認
+## ステップ3: iFlow を実行して、トレース(デバック)してプロセス終了時のMessage内のPayload がXML形式で格納されていることを確認
 <details>
 <summary>内容を開く</summary>
  
