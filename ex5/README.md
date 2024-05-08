@@ -200,6 +200,7 @@
 ## ステップ3: Flow をトレース(デバック)付き実行して、プロセス終了時のMessage内のPayload にS/4HANAから取得した製品データが格納されていることを確認
 <details>
 <summary>内容を開く</summary>
+  
 1. ### (`注意:` もしも`Manage Integration Content`タブが閉じている場合のみ) Integration Flow のプロパティの`Deployment Status`タブにある項目`Deployment Status`の横にある`Navigate to Manage Integration Content`のリンクを右クリックして`新しいタブでリンクを開く`を選択して、リンク先を新しいタブで開いてください。
     
    <img src="images/5-3-1.png" alt="table" width="100%">
@@ -277,3 +278,4 @@
 </details>
 
 ## まとめ
+本演習では、S/4HANA にアクセスしてデータを取得する方法を理解しました。
