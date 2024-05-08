@@ -90,11 +90,11 @@
     `General`タブ
     |パラメータ|入力項目|
     |--|--|
-    |Name:|`call S/4HANA System with SOAP API`|
+    |Name:|`call S/4HANA System with ODATA API`|
 
      <img src="images/5-2-3.png" alt="table" width="100%">   
 
-4. ### メニューにある`Participant`の中にある`Receiver`を選択して`call S/4HANA System with SOAP API`の真下あたりに配置してください。
+4. ### メニューにある`Participant`の中にある`Receiver`を選択して`call S/4HANA System with ODATA API`の真下あたりに配置してください。
   
    <img src="images/5-2-4.png" alt="table" width="100%">
 
@@ -107,9 +107,25 @@
     `General`タブ
     |パラメータ|入力項目|
     |--|--|
-    |Name:|`S4HANA_System` * 空白は不可|
+    |Name:|`S4HANA` * 空白は不可|
 
-     <img src="images/5-2-6.png" alt="table" width="100%">  
+     <img src="images/5-2-6.png" alt="table" width="100%">
+
+7. ### Integration Process 内の`call S/4HANA System with ODATA API`を選択してメニューから`Connector`を選択して`S4HANA`に接続してください。
+  
+   <img src="images/5-2-7.png" alt="table" width="100%">
+
+   接続された状態は以下のようになり、ポップアップ画面が開きます。
+
+   <img src="images/5-2-7-1.png" alt="table" width="100%">
+
+   ポップアップ画面では`Adapter Type`を設定する画面になります。ここでは`OData` → `OData V2`を選択します。
+
+   <img src="images/5-2-7-2.png" alt="table" width="100%">
+
+   最終的には、以下のよう`call S/4HANA with ODATA API`と`S4HANA`が接続されます。
+   
+   <img src="images/5-2-7-3.png" alt="table" width="100%">
 
 </details>
 
