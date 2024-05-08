@@ -197,4 +197,83 @@
      
 </details>
 
+## ステップ3: Flow をトレース(デバック)付き実行して、プロセス終了時のMessage内のPayload にS/4HANAから取得した製品データが格納されていることを確認
+<details>
+<summary>内容を開く</summary>
+1. ### (`注意:` もしも`Manage Integration Content`タブが閉じている場合のみ) Integration Flow のプロパティの`Deployment Status`タブにある項目`Deployment Status`の横にある`Navigate to Manage Integration Content`のリンクを右クリックして`新しいタブでリンクを開く`を選択して、リンク先を新しいタブで開いてください。
+    
+   <img src="images/5-3-1.png" alt="table" width="100%">
+    
+    >　上記画面はMac版のGoogle Chome のものです。  
+
+ 2. ### 開かれたManage Integration Content画面にある左のリストから作成した`Integration Flow for xx` (`xxについては講師から指定された数字に数字`)を選択してください。
+    
+    <img src="images/5-3-2.png" alt="table" width="100%">
+
+ 3. ### 表示された`Integration Flow for xx`の情報の最後にある`Log Configration`セクションにある`Log Level`を`info`→`Trace`に変更してください。ログレベル変更の確認のポップアップ画面が表示されますので、`Change`ボタンを押してください。その結果としてログレベルが変更された旨のメッセージが表示されます。 
+    
+    <img src="images/5-3-3.png" alt="table" width="40%">
+
+    ログレベル変更確認のポップアップ画面
+
+    <img src="images/5-3-3-1.png" alt="table" width="40%">
+    
+    ログレベル変更された旨のメッセージ表示
+
+    <img src="images/5-3-3-2.png" alt="table" width="100%">
+
+ 4. ### Integration FLow のDesigner 画面のタブに戻ります。 (Manage Integration Content 画面のタブはすぐに使いますので、`閉じない`でください。)
+    
+    <img src="images/5-3-4.png" alt="table" width="100%">
+    
+ 5. ### (Desginer の) 画面右上にある`Deploy`ボタンを押して、作成したiFlow を再度ディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください
+    
+     <img src="images/5-3-5.png" alt="table" width="60%">
+     
+     表示されたポップアップ画面はそのまま`Yes`ボタンを押してください。その後、Triggered Deployment を表すポップアップ画面が出ますので、`OK`ボタンを押してください。
+
+     <img src="images/5-3-5-1.png" alt="table" width="40%">
+     
+     Triggered Deployment を表すポップアップ画面
+
+     <img src="images/5-3-5-2.png" alt="table" width="40%">
+   
+ 6. ### Editorの空白部分(Integration Process の箱の下あたり。)を選択して、下に`Integration Flow`のプロパティが表示されます。その中にある`Deployment Status`タブを開き、以下のプロパティが、それぞれ指定の状態になっていることを確認してください。　*Deployment には少し時間がかかる場合があります。ステータスが変更されるまで、少しお待ちください。
+   
+     <img src="images/5-3-6.png" alt="table" width="100%">
+     
+
+     `Integration Flow`のプロパティ画面
+
+    <img src="images/5-3-6-1.png" alt="table" width="100%">
+     
+     |パラメータ|表示されるべき値|
+     |--|--|
+     |Deplyoment Status:|`Deployed`|
+     |Runtime Status:|`Started`|
+     
+     上記のように表示された場合には、iFlow が開始され`トレースが記録された状態`になります。
+   
+ 7. ### 再びManage Integration Content 画面のタブに戻り、`Integration Flow for xx`を選択して、 `Artifical Details`セクションにあるリンク`Monitor Message Processing`を押してください。
+   
+    <img src="images/5-3-7.png" alt="table" width="100%">
+    
+ 8. ### その結果として、Monitor Message Processing 画面が表示されます。この画面の左側のプロセスされたメッセージの一覧がリストで表示されます。その中から`Status`が`Completed`になっているもを選択してください。(複数ある場合は、`Completed`になっているエントリーから`一番最新のもの`=一番上のものを選択してください。)
+   
+     <img src="images/5-3-8.png" alt="table" width="100%">
+
+ 9. ###  表示された`Integration Flow for xx`の情報の三番目にある`Log`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
+    
+     <img src="images/5-3-9.png" alt="table" width="100%">
+
+ 10. ### 結果としてMessage のプロセス情報を示すMessage Processing Run 画面が表示されます。ここからトレース内容を確認ます。左のリストにある`End`を選択してください。これにより右にあるiFlow の図にあるEnd Event が強調表示されます。(これにより`End Event` が実行された直後のトレース情報を確認することができます。)
+
+     <img src="images/5-3-10.png" alt="table" width="100%">
+     
+ 11. ### iFlow の図の上にある`Message Content`(`Log COntent`の右横)を選択してください。さらに`Payload`を選択してください。`End Event` 時点での`Payload` ( = Message のBody)が表示されます。これで`S/4AHANシステムから取得した製品マスターの内容`がセットされていることが確認できました。
+    
+     <img src="images/5-3-11.png" alt="table" width="100%">
+
+</details>
+
 ## まとめ
