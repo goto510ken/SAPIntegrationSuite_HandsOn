@@ -98,6 +98,10 @@
   
    <img src="images/5-2-4.png" alt="table" width="100%">
 
+   以下、`Receiver`を選択して、Integration Process の外の`call S/4HANA System with ODATA API`の真下あたりに配置した状態
+
+   <img src="images/5-2-1-1.png" alt="table" width="100%">
+
 5. ### (もしもプロパティパネルが隠れている場合は)`Receiver`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
    
    <img src="images/5-2-5.png" alt="table" width="100%">
