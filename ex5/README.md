@@ -31,7 +31,7 @@
 
 2. ### メニューにある`Message Transformers`の中から`Content Modifier`を選択して、Integration Flow 内の`Message Mapping`とEnd を結ぶ線上に配置してください。
   
-   <img src="images/5-1-2.png" alt="table" width="100%">
+   <img src="images/5-1-2.png" alt="table" width="40%">
 
    以下、`Content Modifier`を選択して, Integration Process 内の`Message Mapping` とEnd を結ぶ線上に配置した状態
 
@@ -65,7 +65,7 @@
 
 5. ### 画面右上にある`Save`ボタンを押して作成してものを保存してください。
   
-   <img src="images/5-1-5.png" alt="table" width="100%">
+   <img src="images/5-1-5.png" alt="table" width="40%">
 
 </details>
 
