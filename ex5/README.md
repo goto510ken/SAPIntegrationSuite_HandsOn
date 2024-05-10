@@ -190,6 +190,9 @@
 
     <img src="images/5-2-15-1.png" alt="table" width="100%">
 
+    > OData Adapterのその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/odata-adapter)をご確認ください。
+      
+
 16. ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
 
      |パラメータ|入力項目|
