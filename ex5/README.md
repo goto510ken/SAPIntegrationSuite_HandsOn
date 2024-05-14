@@ -129,7 +129,7 @@
 
    最終的には、以下のよう`call S/4HANA with ODATA API`と`S4HANA`が接続されます。
    
-   <img src="images/5-2-7-3.png" alt="table" width="40%">
+   <img src="images/5-2-7-3.png" alt="table" width="20%">
 
 8. ### (もしもプロパティパネルが隠れている場合は)`OData`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
 
