@@ -75,7 +75,7 @@
 
 1. ### メニューにある`Call`の中にある`Extranal Call` → `Request Reply`を選択してIntegration Process内の`add Exchange Property "ProductID"`とEnd を結ぶ線上に配置してください。
   
-   <img src="images/5-2-1.png" alt="table" width="100%">
+   <img src="images/5-2-1.png" alt="table" width="40%">
 
    以下、`Request Reply`を選択して、Integration Process 内の`add Exchange Property "ProductID"`とEnd を結ぶ線上に配置した状態
 
@@ -96,7 +96,7 @@
 
 4. ### メニューにある`Participant`の中にある`Receiver`を選択して`call S/4HANA System with ODATA API`の真下あたりに配置してください。
   
-   <img src="images/5-2-4.png" alt="table" width="100%">
+   <img src="images/5-2-4.png" alt="table" width="40%">
 
    以下、`Receiver`を選択して、Integration Process の外の`call S/4HANA System with ODATA API`の真下あたりに配置した状態
 
@@ -117,19 +117,19 @@
 
 7. ### Integration Process 内の`call S/4HANA System with ODATA API`を選択してメニューから`Connector`を選択して`S4HANA`に接続してください。
   
-   <img src="images/5-2-7.png" alt="table" width="100%">
+   <img src="images/5-2-7.png" alt="table" width="40%">
 
    接続された状態は以下のようになり、ポップアップ画面が開きます。
 
-   <img src="images/5-2-7-1.png" alt="table" width="100%">
+   <img src="images/5-2-7-1.png" alt="table" width="40%">
 
    ポップアップ画面では`Adapter Type`を設定する画面になります。ここでは`OData` → `OData V2`を選択します。
 
-   <img src="images/5-2-7-2.png" alt="table" width="100%">
+   <img src="images/5-2-7-2.png" alt="table" width="40%">
 
    最終的には、以下のよう`call S/4HANA with ODATA API`と`S4HANA`が接続されます。
    
-   <img src="images/5-2-7-3.png" alt="table" width="100%">
+   <img src="images/5-2-7-3.png" alt="table" width="40%">
 
 8. ### (もしもプロパティパネルが隠れている場合は)`OData`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
 
