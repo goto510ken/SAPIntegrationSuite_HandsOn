@@ -171,14 +171,14 @@
    
     <img src="images/5-2-13.png" alt="table" width="100%">
 
-14. ### `3.Configure Filter & Sorting`画面では、以下のようにデータを設定してください。
+14. ### `3.Configure Filter & Sorting`画面では、以下のようにデータを設定してください。(項目のレイアウトはフローレイアウトになっています。画面サイズによって並び方が変わりる場合があります。)
     
     `3.Configure Filter & Sorting`画面の`Filter By`のパート
     |パラメータ|入力項目|
     |--|--|
-    |一番右の項目|`ProductID`を選択 |
+    |一番右の項目 or 一番上の項目|`ProductID`を選択 |
     |真ん中の項目|`Equal`を選択|
-    |一番左の項目|`${property.ProductID}` *Exchange Property の項目`ProductID`の参照|
+    |一番左の項目 or 一番下の項目|`${property.ProductID}` *Exchange Property の項目`ProductID`の参照|
 
     <img src="images/5-2-14.png" alt="table" width="100%">
 
