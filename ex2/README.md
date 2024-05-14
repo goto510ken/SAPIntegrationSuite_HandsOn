@@ -153,4 +153,4 @@
 </details>
 
 ## まとめ
-上記の設定を行うことで、SAP Integration Suite とSFTPサーバーが連携できるようになります。以降の演習ではこちらの設定を用いてSFTPサーバーとSAP Integration Suite の間でファイル連携を行います。
+本演習では、SAP Integration Suite とSFTPサーバーが連携する方法を学習いただきました。以降の演習ではこちらの設定を用いてSFTPサーバーとSAP Integration Suite の間でファイル連携を行います。
