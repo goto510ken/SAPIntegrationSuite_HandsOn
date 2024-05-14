@@ -279,4 +279,4 @@
 </details>
 
 ## まとめ
-本演習では、最単純なiFlow を作成することで、フローを作成する際に必要な手順を理解することが出来ます。またiFlow をトレースすることでステップごとのMessage の中身を確認することが出来ます。これによってデバックしながらiFlowを調整することが出来ます。Messageに関してはSAP Help の[こちら](https://help.sap.com/docs/integration-suite/sap-integration-suite/camel-data-model-in-nutshell?locale=en-US)をご確認ください。
+本演習では、最単純なiFlow を作成することで、フローを作成する際に必要な手順を学習いただきました。またiFlow をトレースすることでステップごとのMessage の中身を確認することが出来ます。これによってデバックしながらiFlowを調整することが出来ます。Messageに関してはSAP Help の[こちら](https://help.sap.com/docs/integration-suite/sap-integration-suite/camel-data-model-in-nutshell?locale=en-US)をご確認ください。
