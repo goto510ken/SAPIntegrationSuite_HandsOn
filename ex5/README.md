@@ -285,4 +285,4 @@
 </details>
 
 ## まとめ
-本演習では、S/4HANA (OData API を利用する方式)にアクセスしてデータを取得する方法を学習いただきました。
+本演習では、S/4HANA (OData API を利用する方式)にアクセスしてデータを取得する方法を学習いただきました。こちらではOData アダプターを利用しています。他のアダプターの利用方法については、SAP Help の[こちら](https://help.sap.com/docs/integration-suite/sap-integration-suite/configure-adapter-in-communication-channels)をご確認ください。
