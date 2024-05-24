@@ -27,14 +27,14 @@
     
      <img src="images/6-1-1.png" alt="table" width="100%">
      
-  2. ### ### メニューにある`Transformation`の中から``を選択して、Integration Flow 内の`Message Mapping`とEnd を結ぶ線上に配置してください。
+  2. ### ### メニューにある`Transformation`の中から`Converter`→`XML to CSV Converteer`を選択して、Integration Flow 内の`call S/4HANA System with ODATA API`とEnd を結ぶ線上に配置してください。
      <img src="images/6-1-2.png" alt="table" width="40%">
      
-     以下、`Content Modifier`を選択して, Integration Process 内の`Message Mapping` とEnd を結ぶ線上に配置した状態
+     以下、`XML to CSV Converter`を選択して, Integration Process 内の`call S/4HANA System with ODATA API` とEnd を結ぶ線上に配置した状態
 
      <img src="images/6-1-2-1.png" alt="table" width="100%">
    
-  3. ### (もしもプロパティパネルが隠れている場合は)`Content Modifier`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
+  3. ### (もしもプロパティパネルが隠れている場合は)`XML to CSV COnverter`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
     
      <img src="images/6-1-2-1.png" alt="table" width="100%">
      
