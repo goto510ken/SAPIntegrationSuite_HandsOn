@@ -13,7 +13,7 @@
 >4. Message 内部でデータをマッピングして、異なる項目にデータをマッピング(例: 項目ProductIdentifierから項目ProductIDへ)
 >5. Payload 内のProductIDを取得してExchange Property として設定
 >6. Exchange Property として設定したProductIDを利用して、この製品に関するデータをS/4HANAシステムからODataを利用して取得
->7. S/4HANAシステムから取得した製品データをMessage内のPayload に格納しプロセスを終了`
+>7. S/4HANAシステムから取得した製品データをMessage内のPayload に格納しプロセスを終了
 >8. `S/4HANAから取得したデータをXML形式からCSV形式に変換` *
 >   
 >*本演習で拡張した結果として追加もしくは変更されたステップ
