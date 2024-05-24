@@ -61,13 +61,15 @@
      >Content Modifier のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/configure-xml-to-csv-converter)をご確認ください。
      
   5. ### ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
+    
+     <img src="images/6-1-5.png" alt="table" width="80%">
 
      |パラメータ|入力項目|
      |--|--|
      |Version:|`デフォルト`のまま|
      |Comment:|`Add XML to CSV Converter`|
      
-     <img src="images/6-1-5.png" alt="table" width="80%">
+     <img src="images/6-1-5-1.png" alt="table" width="80%">
 
 
 </details>
