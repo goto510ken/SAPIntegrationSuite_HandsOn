@@ -36,7 +36,7 @@
    
   3. ### (もしもプロパティパネルが隠れている場合は)`XML to CSV COnverter`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
     
-     <img src="images/6-1-2-1.png" alt="table" width="100%">
+     <img src="images/6-1-3.png" alt="table" width="100%">
      
   4. 画面下部に表示された`XML to CSV Converter`のプロパティが表示されます。こちらの`General` タブおよび`Exchange Property` タブの値を以下のように設定してください。
     
