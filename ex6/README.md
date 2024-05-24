@@ -38,7 +38,7 @@
     
      <img src="images/6-1-2-1.png" alt="table" width="100%">
      
-  4. 画面下部に表示された`Content Modifier`のプロパティが表示されます。こちらの`General` タブおよび`Exchange Property` タブの値を以下のように設定してください。
+  4. 画面下部に表示された`XML to CSV Converter`のプロパティが表示されます。こちらの`General` タブおよび`Exchange Property` タブの値を以下のように設定してください。
     
      `General`タブ
      |パラメータ|入力項目|
