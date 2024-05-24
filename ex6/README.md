@@ -2,7 +2,7 @@
 
 ## 目的
 本演習ではiFlow からS/4HANAシステムから取得した製品データのデータ形式を変換します。こちらではIntegration Suite に組み込まれている`XML to CSV Converter`を利用します。具体的には以下の内容を実施します。
-1. XML to CSV Converter を用いてS/4HANAから取得した製品データ形式をXML形式からCSV形式に変換
+1. Converter 機能を利用してXML形式のデータをCSV形式にデータ変換
 2. iFlow をトレース(デバック)付き実行して、プロセス終了時のMessage内のPayload にS/4HANAから取得した製品データがCSV形式に変換されていることを確認
 <img src="images/6-Intro.png" alt="table" width="100%">
 
@@ -19,7 +19,7 @@
 >*本演習で拡張した結果として追加もしくは変更されたステップ
 
 ## 手順
-## ステップ1: XML to CSV Converter を用いてS/4HANAから取得した製品データ形式をXML形式からCSV形式に変換
+## ステップ1: Converter 機能を利用してXML形式のデータをCSV形式にデータ変換
 <details>
 <summary>内容を開く</summary>
 
@@ -27,15 +27,48 @@
     
      <img src="images/6-1-1.png" alt="table" width="100%">
      
-  2. ### ### メニューにある`Message Transformers`の中から`Content Modifier`を選択して、Integration Flow 内の`Message Mapping`とEnd を結ぶ線上に配置してください。
-  
-   <img src="images/5-1-2.png" alt="table" width="40%">
+  2. ### ### メニューにある`Transformation`の中から``を選択して、Integration Flow 内の`Message Mapping`とEnd を結ぶ線上に配置してください。
+     <img src="images/6-1-2.png" alt="table" width="40%">
+     
+     以下、`Content Modifier`を選択して, Integration Process 内の`Message Mapping` とEnd を結ぶ線上に配置した状態
 
-   以下、`Content Modifier`を選択して, Integration Process 内の`Message Mapping` とEnd を結ぶ線上に配置した状態
-
-   <img src="images/5-1-2-1.png" alt="table" width="100%">
+     <img src="images/6-1-2-1.png" alt="table" width="100%">
    
   3. ### (もしもプロパティパネルが隠れている場合は)`Content Modifier`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
+    
+     <img src="images/6-1-2-1.png" alt="table" width="100%">
+     
+  4. 画面下部に表示された`Content Modifier`のプロパティが表示されます。こちらの`General` タブおよび`Exchange Property` タブの値を以下のように設定してください。
+    
+     `General`タブ
+     |パラメータ|入力項目|
+     |--|--|
+     |Name:|`XML to CSV Converter`|
+
+     <img src="images/6-1-4.png" alt="table" width="100%">
+     
+     `Processing`タブ
+     |パラメータ|入力項目|
+     |--|--|
+     |Path to Source Element in XSD:|`/ProductSet/Product`|
+     |Feild Separator in CSV:|`Comma(,)` *デフォルトのまま|
+     |Include Field Name as Headers:|`チェック`|
+     |Include Parent Element:|`空白` *デフォルトのまま|
+     |Include Attribute Values:|`空白`  *デフォルトのまま|
+
+     <img src="images/6-1-4-1.png" alt="table" width="100%">
+     
+     >Content Modifier のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/configure-xml-to-csv-converter)をご確認ください。
+     
+  7. ### ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
+
+     |パラメータ|入力項目|
+     |--|--|
+     |Version:|`デフォルト`のまま|
+     |Comment:|`Add XML to CSV Converter`|
+     
+     <img src="images/6-1-6.png" alt="table" width="80%">
+
 
 </details>
 
