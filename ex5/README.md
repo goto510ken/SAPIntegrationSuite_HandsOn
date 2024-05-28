@@ -278,7 +278,7 @@
 
      <img src="images/5-3-10.png" alt="table" width="100%">
      
- 11. ### iFlow の図の上にある`Message Content`(`Log COntent`の右横)を選択してください。さらに`Payload`を選択してください。`End Event` 時点での`Payload` ( = Message のBody)が表示されます。これで`S/4AHANシステムから取得した製品マスターの内容`がセットされていることが確認できました。
+ 11. ### iFlow の図の上にある`Message Content`(`Log Content`の右横)を選択してください。さらに`Payload`を選択してください。`End Event` 時点での`Payload` ( = Message のBody)が表示されます。これで`S/4AHANシステムから取得した製品マスターの内容`がセットされていることが確認できました。
     
      <img src="images/5-3-11.png" alt="table" width="100%">
 
