@@ -27,7 +27,7 @@
     
      <img src="images/6-1-1.png" alt="table" width="100%">
      
-  2. ### ### メニューにある`Transformation`の中から`Converter`→`XML to CSV Converteer`を選択して、Integration Flow 内の`call S/4HANA System with ODATA API`とEnd を結ぶ線上に配置してください。
+  2. ### メニューにある`Transformation`の中から`Converter`→`XML to CSV Converteer`を選択して、Integration Flow 内の`call S/4HANA System with ODATA API`とEnd を結ぶ線上に配置してください。
      <img src="images/6-1-2.png" alt="table" width="40%">
      
      以下、`XML to CSV Converter`を選択して, Integration Process 内の`call S/4HANA System with ODATA API` とEnd を結ぶ線上に配置した状態
@@ -58,7 +58,7 @@
 
      <img src="images/6-1-4-1.png" alt="table" width="100%">
      
-     >Content Modifier のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/configure-xml-to-csv-converter)をご確認ください。
+     >XML to CSV Converter のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/configure-xml-to-csv-converter)をご確認ください。
      
   5. ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
     
