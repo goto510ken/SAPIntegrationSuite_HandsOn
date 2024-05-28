@@ -38,7 +38,7 @@
     
      <img src="images/6-1-3.png" alt="table" width="100%">
      
-  4. 画面下部に表示された`XML to CSV Converter`のプロパティが表示されます。こちらの`General` タブおよび`Exchange Property` タブの値を以下のように設定してください。
+  4. ### 画面下部に表示された`XML to CSV Converter`のプロパティが表示されます。こちらの`General` タブおよび`Exchange Property` タブの値を以下のように設定してください。
     
      `General`タブ
      |パラメータ|入力項目|
@@ -60,7 +60,7 @@
      
      >Content Modifier のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/configure-xml-to-csv-converter)をご確認ください。
      
-  5. ### ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
+  5. ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
     
      <img src="images/6-1-5.png" alt="table" width="80%">
 
