@@ -264,7 +264,7 @@
 
      <img src="images/3-3-12.png" alt="table" width="100%">
      
- 13. ### 次に`Message Content`(`Log COntent`の右横)を選択してください。さらに`Header`を選択してください。(こちらではEnd Event 時点でのMessage の`Header` 情報が表示されます。)
+ 13. ### 次に`Message Content`(`Log Content`の右横)を選択してください。さらに`Header`を選択してください。(こちらではEnd Event 時点でのMessage の`Header` 情報が表示されます。)
 
      <img src="images/3-3-13.png" alt="table" width="100%">
      
