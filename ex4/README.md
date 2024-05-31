@@ -93,7 +93,7 @@
 
      <img src="images/4-2-3.png" alt="table" width="100%">   
 
-4. ### Integration Process 内の`Messasge Mapping`を選択してメニューから`Create`を選択してください。
+4. ### Integration Process 内の`Messasge Mapping`のメニューから`Create`を選択してください。
 
    <img src="images/4-2-4.png" alt="table" width="40%"> 
 
