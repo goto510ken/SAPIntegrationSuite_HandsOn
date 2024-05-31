@@ -6,7 +6,7 @@
    1. Event `Timer`([演習3, ステップ2で実装](https://github.com/goto510ken/SAPIntegrationSuite_HandsOn/tree/main/ex3#%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%8B%E3%82%89%E7%B7%A8%E9%9B%86%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%AB%E3%81%82%E3%82%8Bevent%E3%81%AE%E4%B8%AD%E3%81%8B%E3%82%89timer%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%A6integration-prcess-%E5%86%85%E3%81%AE-start-%E3%81%A8end-%E3%82%92%E7%B5%90%E3%81%B6%E7%B7%9A%E4%B8%8A%E3%81%AB%E9%85%8D%E7%BD%AE%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84-timer%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%81%AF%E4%B8%80%E7%95%AA%E4%B8%8B%E3%81%AB%E3%81%82%E3%82%8B%E3%81%AE%E3%81%A7%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%89%E3%81%AA%E3%82%89%E5%A0%B4%E5%90%88%E3%81%AFevent%E8%87%AA%E4%BD%93%E3%82%92%E3%82%B9%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%81%A8%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99))を削除して、Event `Start Message`への置き換え
    2. Content Converter `set dummy data`([演習3, ステップ2で実装](https://github.com/goto510ken/SAPIntegrationSuite_HandsOn/tree/main/ex3#%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%8B%E3%82%89%E7%B7%A8%E9%9B%86%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%AB%E3%81%82%E3%82%8Btransformation%E3%81%AE%E4%B8%AD%E3%81%8B%E3%82%89content-modifier%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%A6integration-prcess-%E5%86%85%E3%81%AE-time-start-%E3%81%A8end-%E3%82%92%E7%B5%90%E3%81%B6%E7%B7%9A%E4%B8%8A%E3%81%AB%E9%85%8D%E7%BD%AE%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84))の削除
 2. SFTP Sender Adapter の実装
-3. ディプロイおよびトレースの準備
+3. トレースの準備およびディプロイ
 4. SFTPサーバーへファイルを格納してプロセスの確認
 
    <img src="images/7-Intro.png" alt="table" width="100%">
@@ -128,3 +128,63 @@
 
 </details>
 
+## ステップ3: トレースの準備およびディプロイ
+<details>
+<summary>内容を開く</summary>
+
+   1. ### (`注意:` もしも`Manage Integration Content`タブが閉じている場合のみ) Integration Flow のプロパティの`Deployment Status`タブにある項目`Deployment Status`の横にある`Navigate to Manage Integration Content`のリンクを右クリックして`新しいタブでリンクを開く`を選択して、リンク先を新しいタブで開いてください。
+     
+      <img src="images/7-3-1.png" alt="table" width="100%">
+      
+      >　上記画面はMac版のGoogle Chome のものです。  
+
+ 
+  2. ### 開かれたManage Integration Content画面にある左のリストから作成した`Integration Flow for xx` (`xxについては講師から指定された数字に数字`)を選択してください。
+
+     <img src="images/7-3-2.png" alt="table" width="100%">
+
+  3. ### 表示された`Integration Flow for xx`の情報の最後にある`Log Configration`セクションにある`Log Level`を`info`→`Trace`に変更してください。ログレベル変更の確認のポップアップ画面が表示されますので、`Change`ボタンを押してください。その結果としてログレベルが変更された旨のメッセージが表示されます。
+    
+     <img src="images/7-3-3.png" alt="table" width="40%">
+     
+     ログレベル変更確認のポップアップ画面
+
+     <img src="images/7-3-3-1.png" alt="table" width="40%">
+     
+     ログレベル変更された旨のメッセージ表示
+
+     <img src="images/7-3-3-2.png" alt="table" width="100%">
+
+ 4. ### Integration FLow のDesigner 画面のタブに戻ります。 (Manage Integration Content 画面のタブはすぐに使いますので、`閉じない`でください。)
+   
+    <img src="images/7-3-4.png" alt="table" width="100%">
+    
+ 5. ### (Desginer の) 画面右上にある`Deploy`ボタンを押して、作成したiFlow を再度ディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください
+    
+     <img src="images/7-3-5.png" alt="table" width="60%">
+     
+     表示されたポップアップ画面はそのまま`Yes`ボタンを押してください。その後、Triggered Deployment を表すポップアップ画面が出ますので、`OK`ボタンを押してください。
+
+     <img src="images/7-3-5-1.png" alt="table" width="40%">
+     
+     Triggered Deployment を表すポップアップ画面
+
+     <img src="images/7-3-5-2.png" alt="table" width="40%">
+   
+ 9. ### Editorの空白部分(Integration Process の箱の下あたり。)を選択して、下に`Integration Flow`のプロパティが表示されます。その中にある`Deployment Status`タブを開き、以下のプロパティが、それぞれ指定の状態になっていることを確認してください。　*Deployment には少し時間がかかる場合があります。ステータスが変更されるまで、少しお待ちください。
+   
+     <img src="images/7-3-6.png" alt="table" width="100%">
+     
+
+     `Integration Flow`のプロパティ画面
+
+    <img src="images/7-3-6-1.png" alt="table" width="100%">
+     
+     |パラメータ|表示されるべき値|
+     |--|--|
+     |Deplyoment Status:|`Deployed`|
+     |Runtime Status:|`Started`|
+     
+     上記のように表示された場合には、iFlow が開始され`トレースが記録された状態`になります。
+
+</details>
