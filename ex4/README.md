@@ -62,7 +62,7 @@
 
     >CSV to XML Converter のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/configure-csv-to-xml-converter)をご確認ください。
       
-5. ### 画面右上にある`Save`ボタンを押して、作成してものを保存してください。
+5. ### 画面右上にある`Save`ボタンを押して、作成したものを保存してください。
 
    <img src="images/4-1-5.png" alt="table" width="40%">
 
