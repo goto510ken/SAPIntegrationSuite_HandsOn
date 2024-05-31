@@ -74,7 +74,7 @@
    
    <img src="images/6-2-1-2.png" alt="table" width="100%">
    
-3. ### 画面下部に表示された`SFTP`のプロパティが表示されます。こちらの`Source`タブ、`Processing`タブおよび`Scheduler`タブの値を以下のようにせってしてください。    
+3. ### 画面下部に表示された`SFTP`のプロパティが表示されます。こちらの`Source`タブおよび`Scheduler`タブの値を以下のようにせってしてください。    
 
    `Source`タブ
    |パラメータ|入力項目|
@@ -91,7 +91,22 @@
    |Reconnect Delay (in ms):|`1000` *デフォルトのまま|
    |Automatically Disconnect:|`空白` *デフォルトのまま|
    |Enable Support for Deprecated Algorithms: |`空白` *デフォルトのまま|
+   
    <img src="images/6-1-3.png" alt="table" width="100%">
+   
+   `Scheduler`タブ
+   |パラメータ|入力項目|
+   |--|--|
+   |(チェックボックス)Schedule to Recur:|`選択` *デフォルトのまま|
+   |Schedule to Recur:|`Daily`を選択 *デフォルトのまま|
+   |(チェックボックス)Every:|`10 Sec`を選択 *デフォルトのまま|
+   |Between:|`00:00`を選択　*デフォルトのまま|
+   |and|`24:00`を選択 *デフォルトのまま|
+   |Time Zone|`(UTC 9:00) Japan Standard Time(Japan)`を選択|
+
+   <img src="images/6-1-3-1.png" alt="table" width="100%">
+
+
 
 </details>
 
