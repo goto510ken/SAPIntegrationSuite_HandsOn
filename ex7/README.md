@@ -54,3 +54,44 @@
 
 </details>
    
+## ステップ2: SFTP Sender Adopter の実装
+<details>
+<summary>内容を開く</summary>
+
+1. ### iFlow 上の左端にある`Sender`の`Connector`を選択して`CSV to XML Converter`に接続してください。
+  
+   <img src="images/6-2-1.png" alt="table" width="100%">
+
+   接続された状態で以下のようになり、ポップアップ画面が開きます。ここで`SFTP`を選択します。
+
+    <img src="images/6-2-1-1.png" alt="table" width="100%">
+
+   最終的には、以下のように`Sender`と`CSV to XML Conterver`が接続されます。
+
+   <img src="images/6-2-1-2.png" alt="table" width="100%">
+   
+2. ### (もしもプロパティパネルが隠れている場合は)`SFTP`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
+   
+   <img src="images/6-2-1-2.png" alt="table" width="100%">
+   
+3. ### 画面下部に表示された`SFTP`のプロパティが表示されます。こちらの`Source`タブ、`Processing`タブおよび`Scheduler`タブの値を以下のようにせってしてください。    
+
+   `Source`タブ
+   |パラメータ|入力項目|
+   |--|--|
+   |Directory:|`/HandOn/In`|
+   |File Name:|`Procut_xx.csv` *`xx`については講師から`指定された数字に数字に置き換え`てください。SFTPサーバーでは一つのユーザーを共有しますので必ずxx部分を正しく記載してください。もしも行わない場合は、他の受講者と競合が発生する可能があります。|
+   |Address:|講師より共有されたSFTPサーバーの`IPアドレス`を参照してください。|
+   |Proxy Type:|`Internet`を選択 *デフォルトのまま|
+   |Authentication:|`Public Key`を選択|
+   |User Name:|`sftpuser`|
+   |Private Key Alias|`sftpsuer_ssh_key` *[演習2, スッテプ1で実装](https://github.com/goto510ken/SAPIntegrationSuite_HandsOn/tree/main/ex2#%E3%83%AA%E3%82%B9%E3%83%88%E3%81%AE%E5%8F%B3%E4%B8%8A%E3%81%AB%E3%81%82%E3%82%8Badd-ssh-key%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84)|
+   |Time Out:|`10000` *デフォルトのまま|
+   |Maxmum Reconnect Attempts:|`3` *デフォルトのまま|
+   |Reconnect Delay (in ms):|`1000` *デフォルトのまま|
+   |Automatically Disconnect:|`空白` *デフォルトのまま|
+   |Enable Support for Deprecated Algorithms: |`空白` *デフォルトのまま|
+   <img src="images/6-1-3.png" alt="table" width="100%">
+
+</details>
+
