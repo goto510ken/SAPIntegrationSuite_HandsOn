@@ -194,7 +194,7 @@
 <details>
 <summary>内容を開く</summary>
 
-1. ### プロセスを起動するためにSFTPサーバーにデータを格納します。本演習ではCLI(Command Line Interface)を用いて行います。(Windows の場合はCommand Prompt やPower Shell、Macの場合はTerminalをご利用ください。以下サンプルではMac のTerminal を利用していますが、利用するコマンド等はどのツールでも同じです。)以下の要領でファイルをSFTPサーバーにアップロードしてください。
+1. ### プロセスを起動するためにSFTPサーバーにデータを格納します。本演習ではCLI(Command Line Interface)を用いて行います。(Windows の場合はCommand Prompt やPower Shell、Macの場合はTerminalをご利用ください。)以下の要領でファイルをSFTPサーバーにアップロードしてください。
    |ステップ|作業内容|
    |--|--|
    |①|cdコマンドで`CSVファイルのあるローカルPCの作業フォルダ`に移動。|
@@ -204,7 +204,9 @@
    |⑤|lsコマンドでSFTPサーバーにCSVファイルがアップロードされたかを確認。|
    |⑥|byeコマンドでSFTPサーバーへのアクセスを終了する。|
 
-<img src="images/7-4-1.png" alt="table" width="100%">
+   以下サンプルではMac のTerminal を利用していますが、利用するコマンド等はどのツールでも同じです。
+
+   <img src="images/7-4-1.png" alt="table" width="100%">
 
 3.  
 
