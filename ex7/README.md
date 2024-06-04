@@ -89,7 +89,7 @@
    |パラメータ|入力項目|
    |--|--|
    |Directory:|`/HandOn/In`|
-   |File Name:|`Procut_xx.csv` *`xx`については講師から`指定された数字に数字に置き換え`てください。SFTPサーバーでは一つのユーザーを共有しますので必ずxx部分を正しく記載してください。もしも行わない場合は、他の受講者と競合が発生する可能があります。|
+   |File Name:|`Procut_xx.csv` *`xx`については講師から`指定された数字に数字に置き換え`てください。SFTPサーバーでは一つのユーザーを共有しますので`必ずxx部分を正しく記載`してください。もしも行わない場合は、`他の受講者と競合が発生`する可能があります。|
    |Address:|講師より共有されたSFTPサーバーの`IPアドレス`を参照してください。|
    |Proxy Type:|`Internet`を選択 *デフォルトのまま|
    |Authentication:|`Public Key`を選択|
@@ -115,7 +115,7 @@
 
    <img src="images/6-1-3-1.png" alt="table" width="100%">
 
-   >SFTP SenderAdapterのその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/configure-sftp-sender-adapter)をご確認ください。
+   >SFTP Sender Adapterのその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/configure-sftp-sender-adapter)をご確認ください。
 
 4. ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
 
@@ -188,3 +188,29 @@
      上記のように表示された場合には、iFlow が開始され`トレースが記録された状態`になります。
 
 </details>
+
+
+## ステップ4: SFTPサーバーへファイルを格納してプロセスの確認
+<details>
+<summary>内容を開く</summary>
+
+1. ### プロセスを起動するためにSFTPサーバーにデータを格納します。本演習ではCLI(Command Line Interface)を用いて行います。(Windows の場合はCommand Prompt やPower Shell、Macの場合はTerminalをご利用ください。以下サンプルではMac のTerminal を利用していますが、利用するコマンド等はどのツールでも同じです。)以下の要領でファイルをSFTPサーバーにアップロードしてください。
+
+ |ステップ|作業内容|
+ |--|--|
+ |①|cdコマンドで`CSVファイルのあるローカルPCの作業フォルダ`に移動。|
+ |②|sftpコマンドでクラウド上のSFTPサーバーにアクセス。コマンドは `sftp -i <sftp_stpuser.pemファイル> sftpuser@<講師より共有されたSFTPサーバーのアドレス>`を利用。|
+ |③|cdコマンドでSFTPサーバーにアクセス後、サーバー内の`/HandsOn/In`フォルダに移動。|
+ |④|putコマンドでローカルのCSVファイルをSFTPサーバーへアップロードする。コマンドは`put Product_xx.csv`を利用。*`xx`については講師から`指定された数字に数字に置き換え`てください。SFTPサーバーでは一つのユーザーを共有しますので`必ずxx部分を正しく記載`してください。もしも行わない場合は、`他の受講者と競合が発生`する可能があります。|
+ |⑤|lsコマンドでSFTPサーバーにCSVファイルがアップロードされたかを確認。|
+ |⑥|byeコマンドでSFTPサーバーへのアクセスを終了する。|
+
+<img src="images/7-4-1.png" alt="table" width="100%">
+
+3.  
+
+
+</details>
+
+## まとめ
+本演習では、プロセス連携をSFTPサーバーに格納したCSVファイルを検知して自動的に開始する方法を学習いただきました。
