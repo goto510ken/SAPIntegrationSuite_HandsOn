@@ -28,7 +28,7 @@
 <details>
 <summary>内容を開く</summary>
 
-1. ### メニューにある`Event`の中から`Start Message`を選択して、Integration Flow 内の`Timeer`の`Start 1`の下あたりに配置します。
+1. メニューにある`Event`の中から`Start Message`を選択して、Integration Flow 内の`Timeer`の`Start 1`の下あたりに配置します。
   
    <img src="images/7-1-1.png" alt="table" width="100%">
    
@@ -36,7 +36,7 @@
 
    <img src="images/7-1-1-1.png" alt="table" width="100%">
    
-2. ### `Timeer`の`Start 1`のメニューから`Deleteを選択して削除します。
+2. `Timeer`の`Start 1`のメニューから`Deleteを選択して削除します。
   
    <img src="images/7-1-2.png" alt="table" width="100%">
 
@@ -45,11 +45,11 @@
    <img src="images/7-1-2-1.png" alt="table" width="100%">
 
 
-3. ### Integration Flow のDesigner 画面のタブに戻ります。そしてIntegration Flow のEditor画面の右上にある`Edit`ボタンを押して、編集モードに変更してください。
+3. Integration Flow のDesigner 画面のタブに戻ります。そしてIntegration Flow のEditor画面の右上にある`Edit`ボタンを押して、編集モードに変更してください。
     
    <img src="images/7-1-3.png" alt="table" width="100%">
      
-4. ### Integration Flow上の Content Converter `set dummy dummy`を選択してメニューから`Delete`を選択して削除してください。    
+4. Integration Flow上の Content Converter `set dummy dummy`を選択してメニューから`Delete`を選択して削除してください。    
 
    <img src="images/7-1-4.png" alt="table" width="100%">
 
@@ -57,7 +57,7 @@
    
    <img src="images/7-1-4-1.png" alt="table" width="100%">
 
-5. ### 画面右上にある`Save`ボタンを押して、作成したものを保存してください。
+5. 画面右上にある`Save`ボタンを押して、作成したものを保存してください。
   
    <img src="images/6-1-5.png" alt="table" width="100%">
 
@@ -67,7 +67,7 @@
 <details>
 <summary>内容を開く</summary>
 
-1. ### iFlow 上の左端にある`Sender`の`Connector`を選択して`CSV to XML Converter`に接続してください。
+1. iFlow 上の左端にある`Sender`の`Connector`を選択して`CSV to XML Converter`に接続してください。
   
    <img src="images/6-2-1.png" alt="table" width="100%">
 
@@ -79,11 +79,11 @@
 
    <img src="images/6-2-1-2.png" alt="table" width="100%">
    
-2. ### (もしもプロパティパネルが隠れている場合は)`SFTP`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
+2. (もしもプロパティパネルが隠れている場合は)`SFTP`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
    
    <img src="images/6-2-1-2.png" alt="table" width="100%">
    
-3. ### 画面下部に表示された`SFTP`のプロパティが表示されます。こちらの`Source`タブおよび`Scheduler`タブの値を以下のようにせってしてください。    
+3. 画面下部に表示された`SFTP`のプロパティが表示されます。こちらの`Source`タブおよび`Scheduler`タブの値を以下のようにせってしてください。    
 
    `Source`タブ
    |パラメータ|入力項目|
@@ -117,7 +117,7 @@
 
    >SFTP Sender Adapterのその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/configure-sftp-sender-adapter)をご確認ください。
 
-4. ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
+4. 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
 
      |パラメータ|入力項目|
      |--|--|
@@ -132,18 +132,17 @@
 <details>
 <summary>内容を開く</summary>
 
-   1. ### (`注意:` もしも`Manage Integration Content`タブが閉じている場合のみ) Integration Flow のプロパティの`Deployment Status`タブにある項目`Deployment Status`の横にある`Navigate to Manage Integration Content`のリンクを右クリックして`新しいタブでリンクを開く`を選択して、リンク先を新しいタブで開いてください。
+   1. (`注意:` もしも`Manage Integration Content`タブが閉じている場合のみ) Integration Flow のプロパティの`Deployment Status`タブにある項目`Deployment Status`の横にある`Navigate to Manage Integration Content`のリンクを右クリックして`新しいタブでリンクを開く`を選択して、リンク先を新しいタブで開いてください。
      
       <img src="images/7-3-1.png" alt="table" width="100%">
       
       >　上記画面はMac版のGoogle Chome のものです。  
-
  
-  2. ### 開かれたManage Integration Content画面にある左のリストから作成した`Integration Flow for xx` (`xxについては講師から指定された数字に数字`)を選択してください。
+   2. 開かれたManage Integration Content画面にある左のリストから作成した`Integration Flow for xx` (`xxについては講師から指定された数字に数字`)を選択してください。
 
      <img src="images/7-3-2.png" alt="table" width="100%">
 
-  3. ### 表示された`Integration Flow for xx`の情報の最後にある`Log Configration`セクションにある`Log Level`を`info`→`Trace`に変更してください。ログレベル変更の確認のポップアップ画面が表示されますので、`Change`ボタンを押してください。その結果としてログレベルが変更された旨のメッセージが表示されます。
+  3. 表示された`Integration Flow for xx`の情報の最後にある`Log Configration`セクションにある`Log Level`を`info`→`Trace`に変更してください。ログレベル変更の確認のポップアップ画面が表示されますので、`Change`ボタンを押してください。その結果としてログレベルが変更された旨のメッセージが表示されます。
     
      <img src="images/7-3-3.png" alt="table" width="40%">
      
@@ -155,11 +154,11 @@
 
      <img src="images/7-3-3-2.png" alt="table" width="100%">
 
- 4. ### Integration FLow のDesigner 画面のタブに戻ります。 (Manage Integration Content 画面のタブはすぐに使いますので、`閉じない`でください。)
+ 4. Integration FLow のDesigner 画面のタブに戻ります。 (Manage Integration Content 画面のタブはすぐに使いますので、`閉じない`でください。)
    
     <img src="images/7-3-4.png" alt="table" width="100%">
     
- 5. ### (Desginer の) 画面右上にある`Deploy`ボタンを押して、作成したiFlow を再度ディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください
+ 5. (Desginer の) 画面右上にある`Deploy`ボタンを押して、作成したiFlow を再度ディプロイしてください。ポップアップ画面が開いたら、そのまま`Yes`ボタンを押してください
     
      <img src="images/7-3-5.png" alt="table" width="60%">
      
@@ -171,7 +170,7 @@
 
      <img src="images/7-3-5-2.png" alt="table" width="40%">
    
- 9. ### Editorの空白部分(Integration Process の箱の下あたり。)を選択して、下に`Integration Flow`のプロパティが表示されます。その中にある`Deployment Status`タブを開き、以下のプロパティが、それぞれ指定の状態になっていることを確認してください。　*Deployment には少し時間がかかる場合があります。ステータスが変更されるまで、少しお待ちください。
+ 6. Editorの空白部分(Integration Process の箱の下あたり。)を選択して、下に`Integration Flow`のプロパティが表示されます。その中にある`Deployment Status`タブを開き、以下のプロパティが、それぞれ指定の状態になっていることを確認してください。　*Deployment には少し時間がかかる場合があります。ステータスが変更されるまで、少しお待ちください。
    
      <img src="images/7-3-6.png" alt="table" width="100%">
      
@@ -194,7 +193,7 @@
 <details>
 <summary>内容を開く</summary>
 
-1. ### プロセスを起動するためにSFTPサーバーにデータを格納します。本演習ではPC上のCLI(Command Line Interface)を用いて行います。(Windows の場合は`Command Prompt` や`Power Shell`、Macの場合は`Terminal`をご利用ください。)以下の要領でファイルをSFTPサーバーにアップロードしてください。
+1. プロセスを起動するためにSFTPサーバーにデータを格納します。本演習ではPC上のCLI(Command Line Interface)を用いて行います。(Windows の場合は`Command Prompt` や`Power Shell`、Macの場合は`Terminal`をご利用ください。)以下の要領でファイルをSFTPサーバーにアップロードしてください。
    |ステップ|作業内容|コマンド例
    |--|--|--|
    |①|`Product_xx.csvファイルのあるローカルPCの作業フォルダ`に移動。|`cd <Product_xx.csvファイルのあるローカルPCの作業フォルダ>`|
