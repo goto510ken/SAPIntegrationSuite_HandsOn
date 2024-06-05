@@ -66,7 +66,7 @@
   
 6. ### 画面右上にある`Save`ボタンを押して、作成したものを保存してください。
   
-   <img src="images/6-1-6.png" alt="table" width="100%">
+   <img src="images/7-1-6.png" alt="table" width="100%">
 
 </details>
    
