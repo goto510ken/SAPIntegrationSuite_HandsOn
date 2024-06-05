@@ -32,38 +32,33 @@
     
      <img src="images/7-1-1.png" alt="table" width="100%">
      
-2. ### メニューにある`Event`の中から`Start Message`を選択して、Integration Flow 内の`Timeer`の`Start 1`の下あたりに配置します。
+2. ### メニューにある`Event`の中から`Start Message`を選択して、Integration Flow 内の`Timeer`の`Start Timer 1`の下あたりに配置します。
   
    <img src="images/7-1-2.png" alt="table" width="100%">
    
-   以下、Start Message `Start 1`がTimer `Start 1`の下あたりに配置された状態
+   以下、Start Message `Start 1`がTimer `Start Timer 1`の下あたりに配置された状態
 
    <img src="images/7-1-2-1.png" alt="table" width="100%">
    
-3. ### `Timeer`の`Start 1`のメニューから`Deleteを選択して削除します。
+3. ### `Timeer`の`Start Timer 1`のメニューから`Deleteを選択して削除します。
   
    <img src="images/7-1-3.png" alt="table" width="100%">
 
-   以下、Timer`Start 1`が削除された状態
+   以下、Timer`Start Timer 1`が削除された状態
 
    <img src="images/7-1-3-1.png" alt="table" width="100%">
 
+4. ### Integration Flow上の Content Converter `set dummy dummy`を選択してメニューから`Delete`を選択して削除してください。    
 
-4. ### Integration Flow のDesigner 画面のタブに戻ります。そしてIntegration Flow のEditor画面の右上にある`Edit`ボタンを押して、編集モードに変更してください。
-    
    <img src="images/7-1-4.png" alt="table" width="100%">
-     
-5. ### Integration Flow上の Content Converter `set dummy dummy`を選択してメニューから`Delete`を選択して削除してください。    
-
-   <img src="images/7-1-5.png" alt="table" width="100%">
 
    以下、`set dummy data`が削除された状態
    
-   <img src="images/7-1-5-1.png" alt="table" width="100%">
+   <img src="images/7-1-4-1.png" alt="table" width="100%">
 
-6. ### 画面右上にある`Save`ボタンを押して、作成したものを保存してください。
+5. ### 画面右上にある`Save`ボタンを押して、作成したものを保存してください。
   
-   <img src="images/6-1-6.png" alt="table" width="100%">
+   <img src="images/6-1-5.png" alt="table" width="100%">
 
 </details>
    
