@@ -34,39 +34,39 @@
      
 2. ### メニューにある`Event`の中から`Start Message`を選択して、Integration Flow 内の`Timeer`の`Start Timer 1`の下あたりに配置します。
   
-   <img src="images/7-1-2.png" alt="table" width="100%">
+   <img src="images/7-1-2.png" alt="table" width="40%">
    
    以下、Start Message `Start 1`がTimer `Start Timer 1`の下あたりに配置された状態
 
-   <img src="images/7-1-2-1.png" alt="table" width="100%">
+   <img src="images/7-1-2-1.png" alt="table" width="40%">
    
 3. ### `Timeer`の`Start Timer 1`のメニューから`Deleteを選択して削除します。
   
-   <img src="images/7-1-3.png" alt="table" width="100%">
+   <img src="images/7-1-3.png" alt="table" width="40%">
 
    以下、Timer`Start Timer 1`が削除された状態
 
-   <img src="images/7-1-3-1.png" alt="table" width="100%">
+   <img src="images/7-1-3-1.png" alt="table" width="40%">
 
 4. ### Integration Flow上の Content Converter `set dummy dummy`を選択してメニューから`Delete`を選択して削除してください。    
 
-   <img src="images/7-1-4.png" alt="table" width="100%">
+   <img src="images/7-1-4.png" alt="table" width="40%">
 
    以下、`set dummy data`が削除された状態
    
-   <img src="images/7-1-4-1.png" alt="table" width="100%">
+   <img src="images/7-1-4-1.png" alt="table" width="40%">
 
 5. ### Start Message `Start 1`を選択して、`Connector`を選択してContent Modifier `CSV to XML Converter`に接続してください。
 
-   <img src="images/7-1-5.png" alt="table" width="100%">
+   <img src="images/7-1-5.png" alt="table" width="40%">
 
    以下、Start Message `Start 1`をContent Modifier `CSV to XML Converter`に接続された状態(レイアウト調整済み。) 
    
-   <img src="images/7-1-5-1.png" alt="table" width="100%">
+   <img src="images/7-1-5-1.png" alt="table" width="40%">
   
 6. ### 画面右上にある`Save`ボタンを押して、作成したものを保存してください。
   
-   <img src="images/7-1-6.png" alt="table" width="100%">
+   <img src="images/7-1-6.png" alt="table" width="40%">
 
 </details>
    
