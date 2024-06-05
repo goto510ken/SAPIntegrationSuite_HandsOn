@@ -219,14 +219,9 @@
     
      <img src="images/7-4-4.png" alt="table" width="100%">
 
- 5. ### 結果としてMessage のプロセス情報を示すMessage Processing Run 画面が表示されます。ここからトレース内容を確認ます。左のリストにある`End`を選択してください。これにより右にあるiFlow の図にあるEnd Event が強調表示されます。(これにより`End Event` が実行された直後のトレース情報を確認することができます。)
+ 5. ### 結果としてMessage のプロセス情報を示すMessage Processing Run 画面が表示されます。ここからトレース内容を確認ます。左のリストにある`CSV to XML Converter`を選択してください。その上でiFlow の図の上にある`Message Content`(`Log Content`の右横)を選択してください。さらに`Payload`を選択してください。`End Event` 時点での`Payload` ( = Message のBody)が表示されます。こちらを確認するとProduct_xx.csvのデータが読み込まれていることが確認できます。
 
      <img src="images/7-4-5.png" alt="table" width="100%">
-     
- 6. ### iFlow の図の上にある`Message Content`(`Log Content`の右横)を選択してください。さらに`Payload`を選択してください。`End Event` 時点での`Payload` ( = Message のBody)が表示されます。これでS/4HANA の製品"HT-1000"のマスターデータが`CSV`形式に変換されてセットされていることが確認できました。
-    
-     <img src="images/7-4-6.png" alt="table" width="100%">
-
 </details>
 
 ## まとめ
