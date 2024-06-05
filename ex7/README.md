@@ -56,9 +56,17 @@
    
    <img src="images/7-1-4-1.png" alt="table" width="100%">
 
-5. ### 画面右上にある`Save`ボタンを押して、作成したものを保存してください。
+5. ### Start Message `Start 1`を選択して、`Connector`を選択してContent Modifier `CSV to XML Converter`に接続してください。
+
+   <img src="images/7-1-5.png" alt="table" width="100%">
+
+   以下、Start Message `Start 1`をContent Modifier `CSV to XML Converter`に接続された状態(レイアウト調整済み。) 
+   
+   <img src="images/7-1-5-1.png" alt="table" width="100%">
   
-   <img src="images/6-1-5.png" alt="table" width="100%">
+6. ### 画面右上にある`Save`ボタンを押して、作成したものを保存してください。
+  
+   <img src="images/6-1-6.png" alt="table" width="100%">
 
 </details>
    
