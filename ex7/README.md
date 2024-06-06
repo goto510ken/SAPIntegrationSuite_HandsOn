@@ -148,8 +148,8 @@
       >　上記画面はMac版のGoogle Chome のものです。  
  
    2. ### 開かれたManage Integration Content画面にある左のリストから作成した`Integration Flow for xx` (`xxについては講師から指定された数字に数字`)を選択してください。
-
-     <img src="images/7-3-2.png" alt="table" width="100%">
+     
+      <img src="images/7-3-2.png" alt="table" width="100%">
 
   3. ### 表示された`Integration Flow for xx`の情報の最後にある`Log Configration`セクションにある`Log Level`を`info`→`Trace`に変更してください。ログレベル変更の確認のポップアップ画面が表示されますので、`Change`ボタンを押してください。その結果としてログレベルが変更された旨のメッセージが表示されます。
     
