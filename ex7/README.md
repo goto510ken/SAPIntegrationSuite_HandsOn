@@ -28,7 +28,7 @@
 <details>
 <summary>内容を開く</summary>
 
-1. ### Integration Flow のDesigner 画面のタブに戻ります。そしてIntegration Flow のEditor画面の右上にある`Edit`ボタンを押して、編集モードに変更してください。
+1. ### `Integration Suite` のDesigner 画面のタブに戻ります。そしてIntegration Flow のEditor画面の右上にある`Edit`ボタンを押して、編集モードに変更してください。
     
      <img src="images/7-1-1.png" alt="table" width="100%">
      
