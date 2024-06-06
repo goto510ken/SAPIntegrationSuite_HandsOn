@@ -76,15 +76,15 @@
 
 1. ### iFlow 上の左端にある`Sender`の`Connector`を選択して`CSV to XML Converter`に接続してください。
   
-   <img src="images/7-2-1.png" alt="table" width="100%">
+   <img src="images/7-2-1.png" alt="table" width="40%">
 
    接続された状態で以下のようになり、ポップアップ画面が開きます。ここで`SFTP`を選択します。
 
-    <img src="images/7-2-1-1.png" alt="table" width="100%">
+    <img src="images/7-2-1-1.png" alt="table" width="40%">
 
    最終的には、以下のように`Sender`と`CSV to XML Conterver`が接続されます。
 
-   <img src="images/7-2-1-2.png" alt="table" width="100%">
+   <img src="images/7-2-1-2.png" alt="table" width="40%">
    
 2. ### (もしもプロパティパネルが隠れている場合は)`SFTP`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
    
@@ -126,14 +126,14 @@
 
 4. ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
 
-   <img src="images/7-2-4.png" alt="table" width="80%">
+   <img src="images/7-2-4.png" alt="table" width="40%">
 
      |パラメータ|入力項目|
      |--|--|
      |Version:|`デフォルト`のまま|
      |Comment:|`Add Sender via SFTP`|
 
-   <img src="images/7-2-4-1.png" alt="table" width="80%">
+   <img src="images/7-2-4-1.png" alt="table" width="100%">
 
 </details>
 
