@@ -133,7 +133,7 @@
      |Version:|`デフォルト`のまま|
      |Comment:|`Add Sender via SFTP`|
 
-   <img src="images/7-2-4-1.png" alt="table" width="100%">
+   <img src="images/7-2-4-1.png" alt="table" width="80%">
 
 </details>
 
