@@ -76,19 +76,19 @@
 
 1. ### iFlow 上の左端にある`Sender`の`Connector`を選択して`CSV to XML Converter`に接続してください。
   
-   <img src="images/6-2-1.png" alt="table" width="100%">
+   <img src="images/7-2-1.png" alt="table" width="100%">
 
    接続された状態で以下のようになり、ポップアップ画面が開きます。ここで`SFTP`を選択します。
 
-    <img src="images/6-2-1-1.png" alt="table" width="100%">
+    <img src="images/7-2-1-1.png" alt="table" width="100%">
 
    最終的には、以下のように`Sender`と`CSV to XML Conterver`が接続されます。
 
-   <img src="images/6-2-1-2.png" alt="table" width="100%">
+   <img src="images/7-2-1-2.png" alt="table" width="100%">
    
 2. ### (もしもプロパティパネルが隠れている場合は)`SFTP`を選択したままの状態で、画面右下の`Restore`ボタンを押します。
    
-   <img src="images/6-2-1-2.png" alt="table" width="100%">
+   <img src="images/7-2-2.png" alt="table" width="100%">
    
 3. ### 画面下部に表示された`SFTP`のプロパティが表示されます。こちらの`Source`タブおよび`Scheduler`タブの値を以下のようにせってしてください。    
 
@@ -108,7 +108,7 @@
    |Automatically Disconnect:|`空白` *デフォルトのまま|
    |Enable Support for Deprecated Algorithms: |`空白` *デフォルトのまま|
    
-   <img src="images/6-1-3.png" alt="table" width="100%">
+   <img src="images/7-2-3.png" alt="table" width="100%">
    
    `Scheduler`タブ
    |パラメータ|入力項目|
@@ -120,7 +120,7 @@
    |and|`24:00`を選択 *デフォルトのまま|
    |Time Zone|`(UTC 9:00) Japan Standard Time(Japan)`を選択|
 
-   <img src="images/6-1-3-1.png" alt="table" width="100%">
+   <img src="images/7-2-3-1.png" alt="table" width="100%">
 
    >SFTP Sender Adapterのその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/configure-sftp-sender-adapter)をご確認ください。
 
@@ -131,7 +131,7 @@
      |Version:|`デフォルト`のまま|
      |Comment:|`Add Sender via SFTP`|
      
-     <img src="images/5-2-16.png" alt="table" width="80%">
+     <img src="images/7-2-4.png" alt="table" width="80%">
 
 </details>
 
