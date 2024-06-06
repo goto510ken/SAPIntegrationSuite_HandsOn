@@ -126,12 +126,14 @@
 
 4. ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
 
+   <img src="images/7-2-4.png" alt="table" width="80%">
+
      |パラメータ|入力項目|
      |--|--|
      |Version:|`デフォルト`のまま|
      |Comment:|`Add Sender via SFTP`|
-     
-     <img src="images/7-2-4.png" alt="table" width="80%">
+
+   <img src="images/7-2-4-1.png" alt="table" width="80%">
 
 </details>
 
