@@ -82,7 +82,7 @@
 
     <img src="images/7-2-1-1.png" alt="table" width="40%">
 
-   最終的には、以下のように`Sender`と`CSV to XML Conterver`が接続されます。
+   最終的には、以下のように`Sender`とStart Message `Strat 1`が接続されます。
 
    <img src="images/7-2-1-2.png" alt="table" width="40%">
    
