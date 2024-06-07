@@ -74,7 +74,7 @@
 <details>
 <summary>内容を開く</summary>
 
-1. ### iFlow 上の左端にある`Sender`の`Connector`を選択して`CSV to XML Converter`に接続してください。
+1. ### iFlow 上の左端にある`Sender`の`Connector`を選択してStart Message `Sart 1`に接続してください。
   
    <img src="images/7-2-1.png" alt="table" width="40%">
 
