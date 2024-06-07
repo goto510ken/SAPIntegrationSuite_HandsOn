@@ -22,4 +22,4 @@ iFlow の構築の総仕上げとして、出力データをCSVファイルと�
 >*本演習で拡張した結果として追加もしくは変更されたステップ
 
 ## まとめ
-本演習では、プロセス連携のアウトプットとしてCSVファイルをSFTPサーバーに出力する方法を学習いただきました。これにて一連のプロセス連携のiFlowの構築のハンズオンは以上で終了です。ひとまずお疲れ様です。次の演習では、今後様々ばプロセス連携を行う場合に参考となるSAP が提供するベストプラクティス`Integration Flow Design Guidline` を参照する方法をご紹介します。
+本演習では、プロセス連携のアウトプットとしてCSVファイルをSFTPサーバーに出力する方法を学習いただきました。これにて一連のプロセス連携のiFlowの構築のハンズオンは以上で終了です。ひとまずお疲れ様です。[次の演習](https://github.com/goto510ken/SAPIntegrationSuite_HandsOn/tree/main/ex9#%E6%BC%94%E7%BF%929-%E6%AC%A1%E3%81%AE%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%E3%81%AB%E5%90%91%E3%81%91%E3%81%A6--integration-flow-design-guideline%E3%81%AE%E7%A2%BA%E8%AA%8D)では、今後様々ばプロセス連携を行う場合に参考となるSAP が提供するベストプラクティス`Integration Flow Design Guidline` を参照する方法をご紹介します。
