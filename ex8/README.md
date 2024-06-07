@@ -173,6 +173,21 @@ iFlow の構築の総仕上げとして、出力データをCSVファイルと�
  5. ### 結果としてMessage のプロセス情報を示すMessage Processing Run 画面が表示されます。ここからトレース内容を確認ます。左のリストにある`CSV to XML Converter`を選択してください。その上でiFlow の図の上にある`Message Content`(`Log Content`の右横)を選択してください。さらに`Payload`を選択してください。`End Event` 時点での`Payload` ( = Message のBody)が表示されます。こちらを確認するとProduct_xx.csvのデータが読み込まれていることが確認できます。
 
      <img src="images/8-3-5.png" alt="table" width="100%">
+
+6. ### プロセスを実行した結果作成されたCSVファイルをSFTPサーバーから取得します。本演習ではPC上のCLI(Command Line Interface)を用いて行います。(Windows の場合は`Command Prompt` や`Power Shell`、Macの場合は`Terminal`をご利用ください。)以下の要領でファイルをSFTPサーバーにアップロードしてください。
+   |ステップ|作業内容|コマンド例
+   |--|--|--|
+   |①|`Product_xx.csvファイルのあるローカルPCの作業フォルダ`に移動。|`cd <Product_xx.csvファイルのあるローカルPCの作業フォルダ>`|
+   |②|sftpコマンドでクラウド上のSFTPサーバーにアクセス。|`sftp -i <sftp_stpuser.pemファイル> sftpuser@<講師より共有されたSFTPサーバーのアドレス>`|
+   |③|SFTPサーバーにアクセス後、サーバー内の`/HandsOn/Out`フォルダに移動。|`cd /HandsOn/Out`|
+   |④|lsコマンドで作成されたファイルを探してください。* ご自身の割り当て番号xxおよびタイムスタンプを頼りにファイルを探してください。|`ls`|
+   |⑤|getコマンドで対象のCSVファイルをSFTPサーバーへダウンロード。|`get Product_xx_timestamp.csv` *`xx`については講師から`指定された数字に数字に置き換え`てください。SFTPサーバーでは一つのユーザーを共有しますので`必ずxx部分を正しく記載`してください。もしも行わない場合は、`他の受講者と競合が発生`する可能があります。|
+   |⑥|SFTPサーバーへのアクセスを終了する。|`bye`|
+
+   以下サンプルではMac のTerminal を利用していますが、利用するコマンド等は基本的にどのツールでも同じです。
+
+   <img src="images/8-3-1.png" alt="table" width="100%">
+     
 </details>
 
 ## まとめ
