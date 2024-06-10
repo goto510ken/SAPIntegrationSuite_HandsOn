@@ -33,7 +33,7 @@ iFlow の構築の総仕上げとして、出力データをCSVファイルと�
      
 2. ### iFlow 上の左端にある`End`の`Connector`を選択して`Receiver`に接続してください。
   
-   <img src="images/8-1-2.png" alt="table" width="40%">
+   <img src="images/8-1-2.png" alt="table" width="30%">
 
    接続された状態で以下のようになり、ポップアップ画面が開きます。ここで`SFTP`を選択します。
 
