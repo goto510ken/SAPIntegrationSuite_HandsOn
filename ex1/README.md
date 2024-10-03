@@ -1,7 +1,6 @@
-1. SAP ID Service でAccount 作成
-2. BTP Trial Account にログイン
-3. 免責事項の確認（条件でチェックして同意）
-4. Welcome to SAP BTP Trial (popupでUS Eastを選択)
-5. セットアップに時間がかかります。(終わったらContinueを押す)
-6. Go to Your Trial Account.
-7. 
+本ハンズオン演習はSAP Business Technology Platform (BTP) のTrial Accountを利用します。
+以下のSAP Tutorials に従ってTrial Accountを取得し、Integration Suite 環境のセットアップを行なってください。
+
+1. [GEt an Account on Trial Account](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
+   
+2. [Sey Up Integration Suite Trial](https://developers.sap.com/tutorials/cp-starter-isuite-onboard-subscribe.html)
