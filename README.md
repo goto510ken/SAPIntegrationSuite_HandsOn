@@ -1,4 +1,4 @@
-# SAP Integration Suite ハンズオンワークショップ - Integration 概要理解編
+# SAP Integration Suite ハンズオンワークショップ - Cloud Integration 概要理解編
 ## 目的
 SAP Integration Suite を初めて使用するITプロフェッショナルに以下の内容を理解いただくこと。
 1. SAP Business Technology Platform (BTP) Trial Edition および含まれる`SAP Integration Suite のプロビジョニング`
