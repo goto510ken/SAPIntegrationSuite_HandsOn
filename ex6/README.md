@@ -140,7 +140,7 @@
    
      <img src="images/6-2-8.png" alt="table" width="100%">
 
- 9. ###  表示された`Integration Flow for xx`の情報の三番目にある`Log`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
+ 9. ###  表示された`Integration Flow for xx`の情報の三番目にある`Logs`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
     
      <img src="images/6-2-9.png" alt="table" width="100%">
 
