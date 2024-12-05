@@ -206,7 +206,7 @@
    |ステップ|作業内容|コマンド例
    |--|--|--|
    |①|`Product_xx.csvファイルのあるローカルPCの作業フォルダ`に移動。|`cd <Product_xx.csvファイルのあるローカルPCの作業フォルダ>`|
-   |②|sftpコマンドでクラウド上のSFTPサーバーにアクセス。|`sftp -i <sftp_stpuser.pemファイル> sftpuser@<講師より共有されたSFTPサーバーのアドレス>`|
+   |②|sftpコマンドでクラウド上のSFTPサーバーにアクセス。|`sftp -i <sftp_sftpuser.pemファイル> sftpuser@<講師より共有されたSFTPサーバーのアドレス>`|
    |③|SFTPサーバーにアクセス後、サーバー内の`/HandsOn/In`フォルダに移動。|`cd /HandsOn/In`|
    |④|putコマンドでローカルのCSVファイルをSFTPサーバーへアップロード。|`put Product_xx.csv` *`xx`については講師から`指定された数字に数字に置き換え`てください。SFTPサーバーでは一つのユーザーを共有しますので`必ずxx部分を正しく記載`してください。もしも行わない場合は、`他の受講者と競合が発生`する可能があります。|
    |⑤|SFTPサーバーにCSVファイルがアップロードされたかを確認。|`ls`|
@@ -224,7 +224,7 @@
    
      <img src="images/7-4-3.png" alt="table" width="100%">
 
- 4. ###  表示された`Integration Flow for xx`の情報の三番目にある`Log`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
+ 4. ###  表示された`Integration Flow for xx`の情報の三番目にある`Logs`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
     
      <img src="images/7-4-4.png" alt="table" width="100%">
 
