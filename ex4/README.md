@@ -23,7 +23,7 @@
 <details>
 <summary>内容を開く</summary>
 
-1. ### Integration Flow のDesigner 画面のタブに戻ります。そしてIntegration Flow のEditor画面の右上にある`Edit`ボタンを押して、編集モードに変更してください。。
+1. ### Integration Flow のDesigner 画面のタブに戻ります。そしてIntegration Flow のEditor画面の右上にある`Edit`ボタンを押して、編集モードに変更してください。
 
    <img src="images/4-1-1.png" alt="table" width="100%">
 
@@ -113,7 +113,7 @@
 
    <img src="images/4-2-7-1.png" alt="table" width="100%">
 
-8. ### 左右に表示されたStructure のうち`右側の`Structureの上にある`Add source message`ボタンを押してください。
+8. ### 左右に表示されたStructure のうち`右側の`Structureの上にある`Add target message`ボタンを押してください。
 
    <img src="images/4-2-8.png" alt="table" width="100%">
    
@@ -251,7 +251,7 @@
    
      <img src="images/4-3-8.png" alt="table" width="100%">
 
- 9. ###  表示された`Integration Flow for xx`の情報の三番目にある`Log`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
+ 9. ###  表示された`Integration Flow for xx`の情報の三番目にある`Logs`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
     
      <img src="images/4-3-9.png" alt="table" width="100%">
 
