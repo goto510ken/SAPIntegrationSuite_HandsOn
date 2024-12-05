@@ -23,7 +23,7 @@
     >Integration Suite へは、URL はhttps://`ご利用のIntegration Suite のアドレス`/shell/home でアクセス出来ます。
     
 
- 2. ### メニューから`Monitor` → `Integrations and APIs`を選択してください。。
+ 2. ### メニューから`Monitor` → `Integrations and APIs`を選択してください。
     
     <img src="images/2-1-2.png" alt="table" width="40%">
 
@@ -109,13 +109,13 @@
     <img src="images/2-3-2.png" alt="table" width="100%">
 
 
- 3. ### (任意のフォルダに)ダウンロードした`known host`ファイルをnotepad等で開き、ステップ2-5.でクリップボードにコピーされた`Host Key`を追加して、ファイルを`保存`してください。
+ 3. ### (任意のフォルダに)ダウンロードした`known.host`ファイルをnotepad等で開き、ステップ2-5.でクリップボードにコピーされた`Host Key`を追加して、ファイルを`保存`してください。
     
     <img src="images/2-3-3.png" alt="table" width="100%">
     
     > 画面はMacの画面となります。画面では、known host にエントリーを１つ追加した状態になっています。
  
- 4. ### (SAP Integration Suite の画面に戻り、) `Security Material`にあるリストの右上にある`Upload` → `known host (SSH)`を押して、先ほどのステップで保存した`known host`をアップロードします。アップロードが完了したら、画面左上の`Overview`をを押して前画面に戻ってください。
+ 4. ### (SAP Integration Suite の画面に戻り、) `Security Material`にあるリストの右上にある`Upload` → `known host (SSH)`を押して、先ほどのステップで保存した`known.host`をアップロードします。アップロードが完了したら、画面左上の`Overview`をを押して前画面に戻ってください。
     
     <img src="images/2-3-4.png" alt="table" width="100%">
     
