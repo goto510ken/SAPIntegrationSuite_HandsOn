@@ -193,7 +193,7 @@
     > OData Adapterのその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/odata-adapter)をご確認ください。
       
 
-16. ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
+16. ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`Save`ボタンを押してください。
 
      |パラメータ|入力項目|
      |--|--|
@@ -270,7 +270,7 @@
    
      <img src="images/5-3-8.png" alt="table" width="100%">
 
- 9. ###  表示された`Integration Flow for xx`の情報の三番目にある`Log`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
+ 9. ###  表示された`Integration Flow for xx`の情報の三番目にある`Logs`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
     
      <img src="images/5-3-9.png" alt="table" width="100%">
 
