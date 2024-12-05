@@ -77,7 +77,7 @@
     <img src="images/3-2-1.png" alt="table" width="100%">
     
 
- 2. ### メニューから編集メニューにある`Event`の中から`Timer`イベント*を選択して、Integration Prcess 内の Start とEnd を結ぶ線上に配置してください。　* `Timerイベントは一番下にあるので、見つからなら場合は、Event自体をスクロールすると表示されます。`
+ 2. ### メニューから編集メニューにある`Events`の中から`Timer`イベント*を選択して、Integration Prcess 内の Start とEnd を結ぶ線上に配置してください。　* `Timerイベントは一番下にあるので、見つからなら場合は、Event自体をスクロールすると表示されます。`
     
     <img src="images/3-2-2.png" alt="table" width="40%">
     
@@ -112,7 +112,7 @@
 
        <img src="images/3-2-5.png" alt="table" width="20%">
  
- 6. ### メニューから編集メニューにある`Transformation`の中から`Content Modifier`イベントを選択して、Integration Prcess 内の `Time Start` とEnd を結ぶ線上に配置してください。
+ 6. ### メニューから編集メニューにある`Transformation`の中から`Content Modifier`イベントを選択して、Integration Prcess 内の `Start Timer` とEnd を結ぶ線上に配置してください。
 
     <img src="images/3-2-6.png" alt="table" width="40%">
     
@@ -143,7 +143,7 @@
 
     >Content Modifier のその他のパラメータの意味などは、SAP Help の[こちら](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/define-content-modifier)をご確認ください。
       
- 8. ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`OK`ボタンを押してください。
+ 8. ### 画面右上にある`Save as Version`ボタンを押して、開いたポップアップ画面のパラメータに以下のように入力した後に、`Save`ボタンを押してください。
 
     <img src="images/3-2-8.png" alt="table" width="60%">
      
@@ -248,7 +248,7 @@
    
      <img src="images/3-3-8.png" alt="table" width="100%">
 
- 9. ###  表示された`Integration Flow for xx`の情報の三番目にある`Log`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
+ 9. ###  表示された`Integration Flow for xx`の情報の三番目にある`Logs`セクションにある`Log Level`の`Trace`のリンクをクリックしてください。
     
      <img src="images/3-3-9.png" alt="table" width="100%">
 
