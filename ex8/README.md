@@ -52,14 +52,14 @@ iFlow の構築の総仕上げとして、出力データをCSVファイルと�
    `Target`タブ
    |パラメータ|入力項目|
    |--|--|
-   |Directory:|`/HanddOn/Out`|
+   |Directory:|`/HandsOn/Out`|
    |File Name:|`Product_details_xx_.csv` *`xx`については講師から`指定された数字に置き換え`てください。SFTPサーバーでは一つのユーザーを共有しますので`必ずxx部分を正しく記載`してください。もしも行わない場合は、`他の受講者と競合が発生`する可能があります。|
    |Append Timestamp:|`チェック`|
    |Address:|講師より共有されたSFTPサーバーの`IPアドレス`を参照してください。|
    |Proxy Type:|`Internet`を選択 *デフォルトのまま|
    |Authentication:|`Public Key`を選択|
    |User Name:|`sftpuser`|
-   |Private Key Alias|`sftpsuer_ssh_key` ([演習2, スッテプ1で実装](https://github.com/goto510ken/SAPIntegrationSuite_HandsOn/tree/main/ex2#%E3%83%AA%E3%82%B9%E3%83%88%E3%81%AE%E5%8F%B3%E4%B8%8A%E3%81%AB%E3%81%82%E3%82%8Badd-ssh-key%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84))|
+   |Private Key Alias|`sftpuser_ssh_key` ([演習2, スッテプ1で実装](https://github.com/goto510ken/SAPIntegrationSuite_HandsOn/tree/main/ex2#%E3%83%AA%E3%82%B9%E3%83%88%E3%81%AE%E5%8F%B3%E4%B8%8A%E3%81%AB%E3%81%82%E3%82%8Badd-ssh-key%E3%82%92%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84))|
    |Time Out:|`10000` *デフォルトのまま|
    |Maxmum Reconnect Attempts:|`3` *デフォルトのまま|
    |Reconnect Delay (in ms):|`1000` *デフォルトのまま|
