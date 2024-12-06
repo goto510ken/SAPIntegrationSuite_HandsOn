@@ -6,8 +6,9 @@
 2. 登録したKeystore を用いたSFTPサーバーへの接続テスト
 3. Know.host へのSFTPサーバーの登録およびSAP Integration Suiteへのアップロードおよび再度の接続テスト 
 
+<!--
 <img src="images/9-intro.png" alt="table" width="100%">
-
+-->
 
 
 ## 手順
